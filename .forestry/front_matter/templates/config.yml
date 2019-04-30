@@ -49,6 +49,7 @@ fields:
     label: Enable Navigation Menu
     description: Display the navigation menu bar in the header.
     default: true
+  hidden: false
 - type: field_group
   name: footer
   label: Footer Configuration
@@ -79,3 +80,4 @@ fields:
     label: Enable Social Links
     description: Display social links in the footer.
     default: true
+  hidden: false
