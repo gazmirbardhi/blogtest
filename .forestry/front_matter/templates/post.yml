@@ -41,7 +41,6 @@ fields:
   config: {}
   label: gallery
 pages:
-- src/pages/posts/2018-of-taking-actions.md
 - src/pages/posts/Wireframe--Mockup--Prototype-and-other-stages-of-designing-process.md
 - src/pages/posts/Thanks-bro-Puranjay.md
 - src/pages/posts/Thanks-a-ton-Yajushi.md
