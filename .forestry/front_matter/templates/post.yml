@@ -1,54 +1,52 @@
 ---
 label: Post
-is_partial: false
+hide_body: false
 fields:
-  - type: text
-    name: title
-    label: Title
-    description: The title of the post.
-    config:
-      required: true
-  - type: text
-    name: subtitle
-    label: Subtitle
-    description: The text shown just below the post title.
-  - type: datetime
-    name: date
-    label: Date
-    config:
-      required: true
-  - type: file
-    name: thumb_img_path
-    label: Featured Image
-    description: The image shown in the blog feed.
-  - type: file
-    name: content_img_path
-    label: Alternative Featured Image
-    description: The image shown in the single post.
-  - type: text
-    name: excerpt
-    label: Excerpt
-    description: The excerpt of the post displayed in the blog feed.
-  - type: text
-    name: template
-    label: Template
-    hidden: true
-    default: post
-    config:
-      required: true
+- type: text
+  name: title
+  label: Title
+  description: The title of the post.
+  config:
+    required: true
+- type: text
+  name: subtitle
+  label: Subtitle
+  description: The text shown just below the post title.
+- type: datetime
+  name: date
+  label: Date
+  config:
+    required: true
+- type: file
+  name: thumb_img_path
+  label: Featured Image
+  description: The image shown in the blog feed.
+- type: file
+  name: content_img_path
+  label: Alternative Featured Image
+  description: The image shown in the single post.
+- type: text
+  name: excerpt
+  label: Excerpt
+  description: The excerpt of the post displayed in the blog feed.
+- type: text
+  name: template
+  label: Template
+  hidden: true
+  default: post
+  config:
+    required: true
 pages:
-  - src/pages/posts/10-tips-to-getting-started-in-a-professional-life.md
-  - src/pages/posts/2018--of-taking-actions.md
-  - src/pages/posts/Customizing-Angular-UI-Bootstrap--Directives.md
-  - src/pages/posts/Dark-side-of-working-at-Mass-Recruiting-Companies.md
-  - src/pages/posts/Extensions-for-Front-end---UI-Developers.md
-  - src/pages/posts/Indian--social--media--Rumour--Hoax-and-how-we-react.md
-  - src/pages/posts/List-of-the-Essential-Extensions.md
-  - src/pages/posts/Thanks-Shivank.md
-  - src/pages/posts/Thanks-a-lot-for-this--really-helpful.md
-  - >-
-    src/pages/posts/Thanks-a-lot-man--Thanks-for-your-words----Way-to-go--upwards-and-onwards-for-both-of-us.md
-  - src/pages/posts/Thanks-a-ton-Yajushi.md
-  - src/pages/posts/Thanks-bro-Puranjay.md
-  - >-
-    src/pages/posts/Wireframe--Mockup--Prototype-and-other-stages-of-designing-process.md
+- src/pages/posts/Wireframe--Mockup--Prototype-and-other-stages-of-designing-process.md
+- src/pages/posts/Thanks-bro-Puranjay.md
+- src/pages/posts/Thanks-a-ton-Yajushi.md
+- src/pages/posts/Thanks-a-lot-man--Thanks-for-your-words----Way-to-go--upwards-and-onwards-for-both-of-us.md
+- src/pages/posts/Thanks-a-lot-for-this--really-helpful.md
+- src/pages/posts/Thanks-Shivank.md
+- src/pages/posts/List-of-the-Essential-Extensions.md
+- src/pages/posts/Indian--social--media--Rumour--Hoax-and-how-we-react.md
+- src/pages/posts/Extensions-for-Front-end---UI-Developers.md
+- src/pages/posts/Dark-side-of-working-at-Mass-Recruiting-Companies.md
+- src/pages/posts/Customizing-Angular-UI-Bootstrap--Directives.md
+- src/pages/posts/2018--of-taking-actions.md
+- src/pages/posts/10-tips-to-getting-started-in-a-professional-life.md
