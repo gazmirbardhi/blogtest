@@ -49,7 +49,7 @@ fields:
     label: Enable Navigation Menu
     description: Display the navigation menu bar in the header.
     default: true
-  hidden: true
+  hidden: false
 - type: field_group
   name: footer
   label: Footer Configuration
