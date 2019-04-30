@@ -42,7 +42,6 @@ fields:
   label: gallery
 pages:
 - src/pages/posts/Wireframe--Mockup--Prototype-and-other-stages-of-designing-process.md
-- src/pages/posts/Thanks-a-lot-man--Thanks-for-your-words----Way-to-go--upwards-and-onwards-for-both-of-us.md
 - src/pages/posts/List-of-the-Essential-Extensions.md
 - src/pages/posts/Indian--social--media--Rumour--Hoax-and-how-we-react.md
 - src/pages/posts/Extensions-for-Front-end---UI-Developers.md
