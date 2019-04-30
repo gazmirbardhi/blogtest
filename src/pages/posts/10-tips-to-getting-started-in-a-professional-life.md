@@ -14,7 +14,7 @@ gallery: []
 
 ***
 
-There !!are on an average 1.5 million (that’s 1,50,00,000) engineers graduating in India each year, what is it that differs you from the rest from being just any other undergraduate/fresher to getting a good start of your careers?
+There are on an average 1.5 million (that’s 1,50,00,000) engineers graduating in India each year, what is it that differs you from the rest from being just any other undergraduate/fresher to getting a good start of your careers?
 
 #### 10 tips to getting started in a professional life:
 
