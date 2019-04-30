@@ -1,6 +1,6 @@
 {
   "header": {
-    "has_nav": false
+    "has_nav": true
   },
   "footer": {
     "content": "&copy; Stackbit-Ampersand. All rights reserved.",
