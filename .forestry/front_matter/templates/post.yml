@@ -36,6 +36,10 @@ fields:
   default: post
   config:
     required: true
+- name: gallery
+  type: image_gallery
+  config: {}
+  label: gallery
 pages:
 - src/pages/posts/Wireframe--Mockup--Prototype-and-other-stages-of-designing-process.md
 - src/pages/posts/Thanks-bro-Puranjay.md
