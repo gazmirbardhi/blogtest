@@ -17,7 +17,7 @@ exports.onRenderBody = function({ setHeadComponents, setPostBodyComponents }) {
         <React.Fragment>
             <script src={safePrefix('assets/js/plugins.js')}/>
             <script src={safePrefix('assets/js/main.js')}/>
-            /* put additional scripts here */
+            {/* put additional scripts here */}
         </React.Fragment>
     ]);
 
