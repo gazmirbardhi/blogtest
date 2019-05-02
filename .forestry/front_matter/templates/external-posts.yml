@@ -44,3 +44,5 @@ fields:
 - type: list
   name: gallery
   label: gallery
+pages:
+- src/pages/posts/10-tips-to-getting-started-in-a-professional-life.md
