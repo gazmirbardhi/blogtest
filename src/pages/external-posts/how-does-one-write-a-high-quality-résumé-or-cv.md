@@ -2,7 +2,7 @@
 template: external-post
 title: How does one write a high-quality résumé or CV?
 subtitle: ''
-date: 2019-02-04T00:00:00+05:30
+date: 2016-02-28T00:00:00+05:30
 thumb_img_path: "/images/joanna-kosinska-129039-unsplash.jpg"
 content_img_path: ''
 excerpt: ''
