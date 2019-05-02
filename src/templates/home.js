@@ -10,12 +10,12 @@ export default class Home extends React.Component {
         let display_posts = _.orderBy(_.get(this.props, 'pageContext.pages').filter(page => page.relativeDir === 'posts'), 'frontmatter.date', 'desc');
         return (
             <Layout {...this.props}>
-              {_.map(_.get(this.props, 'pageContext.frontmatter.sections'), (section, section_idx) => {
+              {/*_.map(_.get(this.props, 'pageContext.frontmatter.sections'), (section, section_idx) => {
                   let GetSectionComponent = components[_.get(section, 'component')];
                   return (
                     <GetSectionComponent key={section_idx} {...this.props} section={section} site={this.props.pageContext.site} />
                   )
-              })}
+              })*/}
               <div className="post-feed">
                 {_.map(display_posts, (post, post_idx) => (
                 <article key={post_idx} className="post post-card">
