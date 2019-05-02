@@ -40,12 +40,17 @@ fields:
   hidden: true
   config:
     required: true
-  default: external-post
+  default: post
 - name: url
   type: text
   config:
     required: true
   label: URL
+- name: is_external
+  type: boolean
+  label: Is External
+  hidden: true
+  default: true
 pages:
 - src/pages/external-posts/how-does-one-write-a-high-quality-résumé-or-cv.md
 - src/pages/posts/10-tips-to-getting-started-in-a-professional-life.md
