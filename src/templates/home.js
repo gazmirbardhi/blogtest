@@ -7,8 +7,7 @@ import safePrefix from '../utils/safePrefix';
 
 export default class Home extends React.Component {
     render() {
-        let display_posts = _.orderBy(_.get(this.props, 'pageContext.pages').
-          filter(page => page.relativeDir === 'posts' || page.relativeDir === 'external-posts'), 'frontmatter.date', 'desc');
+        let display_posts = _.orderBy(_.get(this.props, 'pageContext.pages').filter(page => page.relativeDir === 'posts' || page.relativeDir === 'external-posts'), 'frontmatter.date', 'desc');
         return (
             <Layout {...this.props}>
               {_.map(_.get(this.props, 'pageContext.frontmatter.sections'), (section, section_idx) => {
@@ -37,7 +36,13 @@ export default class Home extends React.Component {
                       <div className="post-excerpt">
                         <p>{_.get(post, 'frontmatter.excerpt')}</p>
                         <p className="read-more">
-                          <a className="button inverse" href={safePrefix(_.get(post, 'url'))}>Read more</a>
+                          {
+                            _.get(post, 'frontmatter.template') === 'post'
+                            ?
+                            <a className="button inverse" href={safePrefix(_.get(post, 'url'))}>Read more</a>
+                            :
+                            <a target="_blank" rel="noopener noreferrer" className="button inverse" href={safePrefix(_.get(post, 'frontmatter.url'))}>Read more</a>
+                          }
                         </p>
                       </div>
                     </div>
