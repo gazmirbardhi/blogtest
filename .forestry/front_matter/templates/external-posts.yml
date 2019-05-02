@@ -40,7 +40,7 @@ fields:
   hidden: true
   config:
     required: true
-  default: external-post
+  default: post
 - name: url
   type: text
   config:
