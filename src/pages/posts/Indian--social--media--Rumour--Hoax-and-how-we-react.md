@@ -1,14 +1,14 @@
 ---
 template: post
 title: 'Indian [social] media, Rumour, Hoax and how we react :'
-date: '2015-12-03T20:38:13.714Z'
-excerpt: >-
+date: 2015-12-03T20:38:13.714Z
+excerpt: |-
   Hello fellow Indians!
+  How are you doing? How was your day? (I hope good, I don’t want to be called anti-national)
+thumb_img_path: "/images/Diwali pe India.jpg"
+subtitle: ''
+content_img_path: ''
 
-  How are you doing? How was your day? (I hope good, I don’t want to be called
-  anti-national)
-thumb_img_path: >-
-  images/Indian--social--media--Rumour--Hoax-and-how-we-react/1*p0hWDW5eAb7s_6WA8FV7ig.png
 ---
 Hello fellow Indians!  
 How are you doing? How was your day? (I hope good, I don’t want to be called *anti-national*)
