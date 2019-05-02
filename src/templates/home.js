@@ -37,11 +37,11 @@ export default class Home extends React.Component {
                         <p>{_.get(post, 'frontmatter.excerpt')}</p>
                         <p className="read-more">
                           {
-                            _.get(post, 'frontmatter.template') === 'post'
+                            _.get(post, 'frontmatter.is_external')
                             ?
-                            <a className="button inverse" href={safePrefix(_.get(post, 'url'))}>Read more</a>
-                            :
                             <a target="_blank" rel="noopener noreferrer" className="button inverse" href={safePrefix(_.get(post, 'frontmatter.url'))}>Read more</a>
+                            :
+                            <a className="button inverse" href={safePrefix(_.get(post, 'url'))}>Read more</a>
                           }
                         </p>
                       </div>
