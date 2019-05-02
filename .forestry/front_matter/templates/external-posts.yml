@@ -47,4 +47,5 @@ fields:
     required: true
   label: URL
 pages:
+- src/pages/external-posts/how-does-one-write-a-high-quality-résumé-or-cv.md
 - src/pages/posts/10-tips-to-getting-started-in-a-professional-life.md
