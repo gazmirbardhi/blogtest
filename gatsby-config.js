@@ -5,6 +5,14 @@ module.exports = {
         `gatsby-plugin-react-helmet`,
         `gatsby-source-data`,
         {
+            resolve: `gatsby-plugin-sharp`,
+            options: {
+                useMozJpeg: false,
+                stripMetadata: true,
+                defaultQuality: 75,
+            },
+        },
+        {
             resolve: `gatsby-source-filesystem`,
             options: {
                 name: `pages`,
