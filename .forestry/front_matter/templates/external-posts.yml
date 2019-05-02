@@ -3,26 +3,44 @@ label: External posts
 hide_body: false
 fields:
 - type: text
-  name: template
-  label: template
-- type: text
   name: title
-  label: title
-- type: datetime
-  name: date
-  label: date
-- type: textarea
-  name: excerpt
-  label: excerpt
-- type: file
-  name: thumb_img_path
-  label: thumb_img_path
+  label: Title
+  description: The title of the post.
+  config:
+    required: true
 - type: text
   name: subtitle
-  label: subtitle
+  label: Subtitle
+  description: The text shown just below the post title.
+- type: datetime
+  name: date
+  label: Date
+  config:
+    required: true
+- type: file
+  name: thumb_img_path
+  label: Featured Image
+  description: The image shown in the blog feed.
 - type: text
   name: content_img_path
-  label: content_img_path
+  label: Alternative Featured Image
+  description: The image shown in the single post.
+- type: textarea
+  name: excerpt
+  label: Excerpt
+  description: The excerpt of the post displayed in the blog feed.
+  config:
+    wysiwyg: false
+    schema:
+      format: markdown
+  default: ''
+- type: text
+  name: template
+  label: Template
+  hidden: true
+  config:
+    required: true
+  default: post
 - type: list
   name: gallery
   label: gallery
