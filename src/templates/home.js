@@ -7,7 +7,8 @@ import safePrefix from '../utils/safePrefix';
 
 export default class Home extends React.Component {
     render() {
-        let display_posts = _.orderBy(_.get(this.props, 'pageContext.pages').filter(page => page.relativeDir === 'posts'), 'frontmatter.date', 'desc');
+        let display_posts = _.orderBy(_.get(this.props, 'pageContext.pages').
+          filter(page => page.relativeDir === 'posts' || page.relativeDir === 'external-posts'), 'frontmatter.date', 'desc');
         return (
             <Layout {...this.props}>
               {_.map(_.get(this.props, 'pageContext.frontmatter.sections'), (section, section_idx) => {
