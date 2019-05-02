@@ -41,8 +41,10 @@ fields:
   config:
     required: true
   default: post
-- type: list
-  name: gallery
-  label: gallery
+- name: url
+  type: text
+  config:
+    required: true
+  label: URL
 pages:
 - src/pages/posts/10-tips-to-getting-started-in-a-professional-life.md
