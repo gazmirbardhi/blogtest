@@ -1,6 +1,6 @@
 ---
 template: post
-title: 10 tips to getting started in a professional life
+title: How does one write a high-quality résumé or CV?
 date: 2017-05-20T11:55:59.547+00:00
 excerpt: There are on an average 1.5 million (that’s 1,50,00,000) engineers graduating
   in India each year, what is it that differs you from the rest…
