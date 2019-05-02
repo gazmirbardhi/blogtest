@@ -1,0 +1,28 @@
+---
+label: External posts
+hide_body: false
+fields:
+- type: text
+  name: template
+  label: template
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: textarea
+  name: excerpt
+  label: excerpt
+- type: file
+  name: thumb_img_path
+  label: thumb_img_path
+- type: text
+  name: subtitle
+  label: subtitle
+- type: text
+  name: content_img_path
+  label: content_img_path
+- type: list
+  name: gallery
+  label: gallery
