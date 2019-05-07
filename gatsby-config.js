@@ -5,6 +5,12 @@ module.exports = {
         `gatsby-plugin-react-helmet`,
         `gatsby-source-data`,
         {
+            resolve: 'gatsby-plugin-mailchimp',
+            options: {
+                endpoint: 'https://goyalarpit.us9.list-manage.com/subscribe/post?u=58a2533d63dbcaa20121a3abe&amp;id=ac1db89723',
+            }
+        },
+        {
             resolve: `gatsby-plugin-sharp`,
             options: {
                 useMozJpeg: false,
@@ -12,6 +18,7 @@ module.exports = {
                 defaultQuality: 75,
             },
         },
+        `gatsby-transformer-sharp`,
         {
             resolve: `gatsby-source-filesystem`,
             options: {
