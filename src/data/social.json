@@ -1,6 +1,12 @@
 {
   "links": [
     {
+      "type": "quora",
+      "title": "Quora",
+      "icon": "fa-quora",
+      "url": "https://www.quora.com/profile/Arpit-Goyal-14"
+    },
+    {
       "type": "medium",
       "title": "Medium",
       "icon": "fa-medium",
