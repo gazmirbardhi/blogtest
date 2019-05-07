@@ -13,7 +13,7 @@
     ],
     "has_social": true
   },
-  "layout_style": "list",
+  "layout_style": "grid",
   "palette": "blue",
   "title": "Stackbit Ampersand Theme"
 }
