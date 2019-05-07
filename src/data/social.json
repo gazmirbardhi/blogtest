@@ -1,6 +1,12 @@
 {
   "links": [
     {
+      "type": "medium",
+      "title": "Medium",
+      "icon": "fa-medium",
+      "url": "https://medium.com/@arpit_goyal"
+    },
+    {
       "type": "twitter",
       "title": "Twitter",
       "icon": "fa-twitter",
