@@ -1,7 +1,7 @@
 ---
 title: About Me
 subtitle: Engineer with an eye for design
-img_path: "/images/avatar.png"
+img_path: "/images/avatar.jpeg"
 template: page
 menus:
   main:
