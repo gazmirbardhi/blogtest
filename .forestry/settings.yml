@@ -44,13 +44,6 @@ sections:
   match: "**/*"
   templates:
   - post
-- type: directory
-  path: src/pages/external-posts
-  label: External Posts
-  create: all
-  match: "**/*"
-  templates:
-  - external-posts
 - type: document
   path: src/data/subscribe.json
   label: Subscribe

@@ -1,5 +1,6 @@
 ---
 template: post
+is_external: true
 title: 10 tips to getting started in a professional life
 date: 2017-05-20T11:55:59.547Z
 excerpt: There are on an average 1.5 million (that’s 1,50,00,000) engineers graduating

@@ -7,7 +7,7 @@ import safePrefix from '../utils/safePrefix';
 
 export default class Home extends React.Component {
     render() {
-        let display_posts = _.orderBy(_.get(this.props, 'pageContext.pages').filter(page => page.relativeDir === 'posts' || page.relativeDir === 'external-posts'), 'frontmatter.date', 'desc');
+        let display_posts = _.orderBy(_.get(this.props, 'pageContext.pages').filter(page => page.relativeDir === 'posts'), 'frontmatter.date', 'desc');
         return (
             <Layout {...this.props}>
               {_.map(_.get(this.props, 'pageContext.frontmatter.sections'), (section, section_idx) => {
@@ -21,9 +21,17 @@ export default class Home extends React.Component {
                 <article key={post_idx} className="post post-card">
                   <div className="post-card-inside">
                     {_.get(post, 'frontmatter.thumb_img_path') && 
-                    <a className="post-card-thumbnail" href={safePrefix(_.get(post, 'url'))}>
-                      <img className="thumbnail" src={safePrefix(_.get(post, 'frontmatter.thumb_img_path'))} alt={_.get(post, 'frontmatter.title')} />
-                    </a>
+                      (
+                        _.get(post, 'frontmatter.is_external')
+                        ?
+                        <a target="_blank" rel="noopener noreferrer" className="post-card-thumbnail" href={safePrefix(_.get(post, 'frontmatter.url'))}>
+                          <img className="thumbnail" src={safePrefix(_.get(post, 'frontmatter.thumb_img_path'))} alt={_.get(post, 'frontmatter.title')} />
+                        </a>
+                        :
+                        <a className="post-card-thumbnail" href={safePrefix(_.get(post, 'url'))}>
+                          <img className="thumbnail" src={safePrefix(_.get(post, 'frontmatter.thumb_img_path'))} alt={_.get(post, 'frontmatter.title')} />
+                        </a>
+                      )
                     }
                     <div className="post-card-content">
                       <header className="post-header">
