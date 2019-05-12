@@ -48,6 +48,7 @@ fields:
   label: URL
   description: URL of External post
 pages:
+- src/pages/posts/how-does-one-write-a-high-quality-résumé-or-cv.md
 - src/pages/posts/List-of-the-Essential-Extensions.md
 - src/pages/posts/Extensions-for-Front-end---UI-Developers.md
 - src/pages/posts/Dark-side-of-working-at-Mass-Recruiting-Companies.md
