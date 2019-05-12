@@ -13,7 +13,7 @@ url: https://medium.com/a-curious-life/success-101-f4a179b3a05
 is_featured: false
 
 ---
-![](/images/10-tips-to-getting-started-in-a-professional-life/1*EDc4DPE_1iNE3P2yU7X3mA.png)
+![](/images/10-tips-to-getting-started-in-a-professional-life/1*EDc4DPE_1iNE3P2yU7X3mA.jpg)
 
 ***
 
