@@ -2,13 +2,15 @@
 template: post
 is_external: true
 title: 10 tips to getting started in a professional life
-date: 2017-05-20T11:55:59.547Z
+date: 2017-05-20T11:55:59.547+00:00
 excerpt: There are on an average 1.5 million (that’s 1,50,00,000) engineers graduating
   in India each year, what is it that differs you from the rest…
 thumb_img_path: images/10-tips-to-getting-started-in-a-professional-life/1*EDc4DPE_1iNE3P2yU7X3mA.png
 subtitle: ''
 content_img_path: ''
 gallery: []
+url: https://medium.com/a-curious-life/success-101-f4a179b3a05
+is_featured: false
 
 ---
 ![](/images/10-tips-to-getting-started-in-a-professional-life/1*EDc4DPE_1iNE3P2yU7X3mA.png)
