@@ -1,11 +1,18 @@
 ---
 template: post
+is_external: true
 title: List of the Essential Extensions
 date: '2015-02-02T14:26:06.000Z'
 excerpt: >-
   Google Chrome is a fast, simple and secure web browser, built for the modern
   web.
 thumb_img_path: images/List-of-the-Essential-Extensions/0*XUq5uyxTES3zxxkq..jpg
+subtitle: ''
+content_img_path: ''
+gallery: []
+url: https://medium.com/a-curious-life/list-of-the-essential-extensions-8e4a48c3b561
+is_featured: false
+
 ---
 ![](/images/List-of-the-Essential-Extensions/0*XUq5uyxTES3zxxkq..jpg)
 
