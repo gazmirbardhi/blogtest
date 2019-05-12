@@ -47,7 +47,12 @@ fields:
     required: false
   label: URL
   description: URL of External post
+- name: is_featured
+  type: boolean
+  label: Is Featured
+  description: Is this post the featured post
 pages:
+- src/pages/posts/10-tips-to-getting-started-in-a-professional-life.md
 - src/pages/posts/how-does-one-write-a-high-quality-résumé-or-cv.md
 - src/pages/posts/List-of-the-Essential-Extensions.md
 - src/pages/posts/Extensions-for-Front-end---UI-Developers.md
@@ -56,5 +61,3 @@ pages:
 - src/pages/posts/2018--of-taking-actions.md
 - src/pages/posts/Wireframe--Mockup--Prototype-and-other-stages-of-designing-process.md
 - src/pages/posts/Indian--social--media--Rumour--Hoax-and-how-we-react.md
-- src/pages/posts/10-tips-to-getting-started-in-a-professional-life.md
-- src/pages/posts/how-does-one-write-a-high-quality-résumé-or-cv-1.md
