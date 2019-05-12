@@ -41,6 +41,12 @@ fields:
   label: Is external
   description: Is this post a link to an external post(true by default)
   default: true
+- name: url
+  type: text
+  config:
+    required: false
+  label: URL
+  description: URL of External post
 pages:
 - src/pages/posts/List-of-the-Essential-Extensions.md
 - src/pages/posts/Extensions-for-Front-end---UI-Developers.md
