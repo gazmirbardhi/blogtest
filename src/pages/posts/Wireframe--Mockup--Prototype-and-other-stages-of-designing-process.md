@@ -1,12 +1,16 @@
 ---
 template: post
-title: 'Wireframe, Mockup, Prototype and other stages of designing process'
-date: '2015-01-11T19:25:09.000Z'
-excerpt: >-
-  This article is for Designers, Developers, Product Managers, Founders or
+title: Wireframe, Mockup, Prototype and other stages of designing process
+date: 2015-01-11T19:25:09.000Z
+excerpt: This article is for Designers, Developers, Product Managers, Founders or
   anybody who is part of design feedback loop. You can understand…
-thumb_img_path: >-
-  images/Wireframe--Mockup--Prototype-and-other-stages-of-designing-process/1*aQP691kIvF7_z8FwMt5Kuw.png
+thumb_img_path: images/Wireframe--Mockup--Prototype-and-other-stages-of-designing-process/1*aQP691kIvF7_z8FwMt5Kuw.png
+subtitle: ''
+content_img_path: ''
+is_external: true
+url: https://medium.com/a-curious-life/wireframe-mockup-prototype-and-other-stages-of-designing-process-2a3f1c9e1dbf
+is_featured: false
+
 ---
 ![](/images/Wireframe--Mockup--Prototype-and-other-stages-of-designing-process/1*aQP691kIvF7_z8FwMt5Kuw.png)
 
