@@ -4,7 +4,7 @@ title: '2018: of taking actions'
 date: 2019-01-01T18:25:32.497+00:00
 excerpt: Last year a lot of thing happened, this year I fought back, took actions,
   and kinda worked on my checklist. This was a very different year…
-thumb_img_path: "/images/1*ssPaHnqjgTjkP0hwO8nGZw.jp2"
+thumb_img_path: "/images/1*ssPaHnqjgTjkP0hwO8nGZw.jpg"
 subtitle: ''
 content_img_path: ''
 url: https://medium.com/@arpit_goyal/2018-of-taking-actions-8a5ca2f28630
@@ -12,7 +12,7 @@ is_external: true
 is_featured: true
 
 ---
-![](/images/1*ssPaHnqjgTjkP0hwO8nGZw.jp2)
+![](/images/1*ssPaHnqjgTjkP0hwO8nGZw.jpg)
 
 Last year a lot of things happened, this year I fought back, took actions, and kinda worked on my checklist. This was a very different year, a year full of things and events.
 
