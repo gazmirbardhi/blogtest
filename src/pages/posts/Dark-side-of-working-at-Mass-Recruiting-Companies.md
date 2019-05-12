@@ -1,14 +1,14 @@
 ---
 template: post
 title: Dark side of working at Mass Recruiting Companies
-date: 2015-10-20T16:55:32.491Z
+date: 2015-10-20T16:55:32.491+00:00
 excerpt: If you are working at Infosys, Wipro, Accenture, Tech Mahindra, Tata Consultancy
   Services or any other Mass Recruiting Company, usually…
 thumb_img_path: images/Dark-side-of-working-at-Mass-Recruiting-Companies/0*uGs6gduJHA-5HfaV..jpg
 subtitle: ''
 content_img_path: ''
 is_external: true
-url: https://medium.com/a-curious-life/dark-side-of-working-at-mass-recruiting-companies-b383882d5d2b
+url: https://qr.ae/TWNXXN
 is_featured: false
 
 ---
