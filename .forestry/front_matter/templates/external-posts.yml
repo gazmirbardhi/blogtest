@@ -52,5 +52,5 @@ fields:
   hidden: true
   default: true
 pages:
-- src/pages/external-posts/how-does-one-write-a-high-quality-résumé-or-cv-1.md
 - src/pages/posts/10-tips-to-getting-started-in-a-professional-life.md
+- src/pages/external-posts/how-does-one-write-a-high-quality-résumé-or-cv-1.md

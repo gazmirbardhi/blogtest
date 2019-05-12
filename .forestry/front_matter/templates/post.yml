@@ -36,11 +36,16 @@ fields:
   default: post
   config:
     required: true
+- name: is_external
+  type: boolean
+  label: Is external
+  description: Is this post a link to an external post(true by default)
+  default: true
 pages:
-- src/pages/posts/Wireframe--Mockup--Prototype-and-other-stages-of-designing-process.md
 - src/pages/posts/List-of-the-Essential-Extensions.md
-- src/pages/posts/Indian--social--media--Rumour--Hoax-and-how-we-react.md
 - src/pages/posts/Extensions-for-Front-end---UI-Developers.md
 - src/pages/posts/Dark-side-of-working-at-Mass-Recruiting-Companies.md
 - src/pages/posts/Customizing-Angular-UI-Bootstrap--Directives.md
 - src/pages/posts/2018--of-taking-actions.md
+- src/pages/posts/Wireframe--Mockup--Prototype-and-other-stages-of-designing-process.md
+- src/pages/posts/Indian--social--media--Rumour--Hoax-and-how-we-react.md
