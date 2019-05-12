@@ -3,7 +3,7 @@ template: post
 is_external: true
 title: How does one write a high-quality résumé or CV?
 subtitle: ''
-date: 2019-05-11T18:30:00.000+00:00
+date: 2018-12-31T00:00:00+05:30
 thumb_img_path: "/images/resume-writing.jpg"
 content_img_path: ''
 excerpt: ''
