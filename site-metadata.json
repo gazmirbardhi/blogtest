@@ -6,8 +6,8 @@
     "content": "",
     "links": [
       {
-        "text": "Contact",
-        "url": "/contact/",
+        "text": "Home",
+        "url": "//arpitgoyal.com/",
         "new_window": false
       },
       {
@@ -16,8 +16,8 @@
         "new_window": false
       },
       {
-        "text": "Home",
-        "url": "//arpitgoyal.com/",
+        "text": "Contact",
+        "url": "/contact/",
         "new_window": false
       }
     ],
