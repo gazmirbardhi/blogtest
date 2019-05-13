@@ -6,6 +6,11 @@
     "content": "",
     "links": [
       {
+        "text": "Contact",
+        "url": "/contact/",
+        "new_window": false
+      },
+      {
         "text": "About",
         "url": "/about/",
         "new_window": false
