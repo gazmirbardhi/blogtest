@@ -6,6 +6,11 @@
     "content": "",
     "links": [
       {
+        "text": "About",
+        "url": "/about/",
+        "new_window": false
+      },
+      {
         "text": "arpitgoyal.com | Home",
         "url": "//arpitgoyal.com/",
         "new_window": false
