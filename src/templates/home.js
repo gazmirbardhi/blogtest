@@ -63,7 +63,7 @@ export default class Home extends React.Component {
                   )
               })}
               <div className="post-feed">
-                <div class="layout-list">
+                <div className="layout-list">
                 {_.map(featured_posts, (post, post_idx) => (
                   this.getList(post, post_idx)
                 ))}

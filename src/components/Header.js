@@ -1,13 +1,23 @@
 import React from 'react';
-import _ from 'lodash';
+// import _ from 'lodash';
 
-import safePrefix from '../utils/safePrefix';
+// import safePrefix from '../utils/safePrefix';
 
 export default class Header extends React.Component {
     render() {
         return (
             <header id="masthead" className="site-header">
-              <div className="inner">
+              <div className="go-back__nav is-hidden-mobile has-text-white">
+                <div className="go-back__wrapper">
+                  <div className="go-back">
+                      <span className="arrow-left">
+                      {/*<!-- css generated icon -->*/}
+                      </span>
+                      <a href="//arpitgoyal.com" className="back-title">Back</a>
+                    </div>
+                </div>
+              </div>
+              {/*<div className="inner">
                 <div className="site-header-inside">
                   <div className="site-branding">
                     {_.get(this.props, 'pageContext.site.siteMetadata.header.logo_img') && 
@@ -40,7 +50,7 @@ export default class Header extends React.Component {
                       aria-hidden="true" /></button>
                   </React.Fragment>}
                 </div>
-              </div>
+              </div>*/}
             </header>
         );
     }
