@@ -14,9 +14,9 @@ export default class Footer extends React.Component {
                     {htmlToReact(_.get(this.props, 'pageContext.site.siteMetadata.footer.content'))}
                     &nbsp;
                     {_.map(_.get(this.props, 'pageContext.site.siteMetadata.footer.links'), (link, link_idx) => (
-                      <React.Fragment key={link_idx}><a key={link_idx} href={_.get(link, 'url')} {...(_.get(link, 'new_window') ? {target: '_blank" rel="noopener'} : null)}>
+                      <React.Fragment key={link_idx}><li class="menu-item"><a key={link_idx} href={_.get(link, 'url')} {...(_.get(link, 'new_window') ? {target: '_blank" rel="noopener'} : null)}>
                         {_.get(link, 'text')}
-                      </a> . </React.Fragment>))}
+                      </a></li></React.Fragment>))}
                   </p>
                   {_.get(this.props, 'pageContext.site.siteMetadata.footer.has_social') && 
                     <Social {...this.props} />
