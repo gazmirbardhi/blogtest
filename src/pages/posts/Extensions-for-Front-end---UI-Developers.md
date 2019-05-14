@@ -4,7 +4,7 @@ title: Extensions for Front-end / UI Developers
 date: 2015-10-20T17:37:47.318Z
 excerpt: All These extensions are free, so there’s no harm in giving them all a try
   — you can easily disable or remove them by typing…
-thumb_img_path: images/Extensions-for-Front-end---UI-Developers/0-3tJZ0smaPTiT6B42.png
+thumb_img_path: images/Extensions-for-Front-end---UI-Developers/index.png
 subtitle: ''
 content_img_path: ''
 is_external: true
@@ -14,7 +14,7 @@ is_featured: false
 ---
 All These extensions are **free**, so there’s no harm in giving them all a try — you can easily disable or remove them by typing *chrome://extensions/* into the Chrome address bar and something similar for Firefox as well.
 
-![](/images/Extensions-for-Front-end---UI-Developers/0-3tJZ0smaPTiT6B42.png)
+![](/images/Extensions-for-Front-end---UI-Developers/index.png)
 
 <figcaption>Chrome Web&nbsp;Store</figcaption>
 
