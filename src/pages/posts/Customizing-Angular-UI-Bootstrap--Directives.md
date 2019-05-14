@@ -4,7 +4,7 @@ title: Customizing Angular-UI Bootstrap’ Directives
 date: 2015-11-02T07:17:25.806Z
 excerpt: 'Lately, I was working with Angular-UI bootstrap and wanted to customize
   Datepicker (Bootstrap Angular-UI’ Datepicker) as this:'
-thumb_img_path: images/Customizing-Angular-UI-Bootstrap--Directives/1*Sp1BLGoVTKUG_KCby7ZvQg.png
+thumb_img_path: images/Customizing-Angular-UI-Bootstrap--Directives/1-Sp1BLGoVTKUG_KCby7ZvQg.png
 subtitle: ''
 content_img_path: ''
 is_external: true
@@ -14,7 +14,7 @@ is_featured: false
 ---
 Lately, I was working with Angular-UI bootstrap and wanted to customize Datepicker ([Bootstrap Angular-UI’ Datepicker](http://angular-ui.github.io/bootstrap/#/datepicker)) as this:
 
-![](/images/Customizing-Angular-UI-Bootstrap--Directives/1*Sp1BLGoVTKUG_KCby7ZvQg.png)
+![](/images/Customizing-Angular-UI-Bootstrap--Directives/1-Sp1BLGoVTKUG_KCby7ZvQg.png)
 
 <figcaption>Angular UI Bootstrap’ Default Datepicker (Left) to Modified Datepicker (Right)</figcaption>
 

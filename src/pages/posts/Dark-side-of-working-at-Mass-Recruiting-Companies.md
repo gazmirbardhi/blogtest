@@ -4,7 +4,7 @@ title: Dark side of working at Mass Recruiting Companies
 date: 2015-10-20T16:55:32.491+00:00
 excerpt: If you are working at Infosys, Wipro, Accenture, Tech Mahindra, Tata Consultancy
   Services or any other Mass Recruiting Company, usually…
-thumb_img_path: images/Dark-side-of-working-at-Mass-Recruiting-Companies/0*uGs6gduJHA-5HfaV..jpg
+thumb_img_path: images/Dark-side-of-working-at-Mass-Recruiting-Companies/0-uGs6gduJHA-5HfaV..jpg
 subtitle: ''
 content_img_path: ''
 is_external: true
@@ -17,7 +17,7 @@ If you are working at **Infosys, Wipro, Accenture, Tech Mahindra, Tata Consultan
 You are one of those **300,000 employees** (TCS as of March 2015)  
 \+ **35,000 freshers** (TCS aimed at hiring for the year 2015)
 
-![](/images/Dark-side-of-working-at-Mass-Recruiting-Companies/0*uGs6gduJHA-5HfaV..jpg)
+![](/images/Dark-side-of-working-at-Mass-Recruiting-Companies/0-uGs6gduJHA-5HfaV..jpg)
 
 <figcaption>Tata Consultancy Services and&nbsp;Employee</figcaption>
 
