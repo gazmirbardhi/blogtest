@@ -52,6 +52,7 @@ fields:
   label: Is Featured
   description: Is this post the featured post
 pages:
+- src/pages/posts/how-to-get-a-job-in-a-company-which-does-awesome-work.md
 - src/pages/posts/what-are-the-examples-of-people-switching-from-corporate-job-to-teaching.md
 - src/pages/posts/how-to-get-interesting-work-in-computer-science-field.md
 - src/pages/posts/i-know-html-css-and-a-bit-of-javascript-what-should-i-learn-next.md
