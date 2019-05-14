@@ -52,6 +52,7 @@ fields:
   label: Is Featured
   description: Is this post the featured post
 pages:
+- src/pages/posts/i-know-html-css-and-a-bit-of-javascript-what-should-i-learn-next.md
 - src/pages/posts/what-is-the-easiest-way-to-make-a-little-money-online-if-i-am-a-programmer.md
 - src/pages/posts/10-tips-to-getting-started-in-a-professional-life.md
 - src/pages/posts/how-does-one-write-a-high-quality-résumé-or-cv.md
