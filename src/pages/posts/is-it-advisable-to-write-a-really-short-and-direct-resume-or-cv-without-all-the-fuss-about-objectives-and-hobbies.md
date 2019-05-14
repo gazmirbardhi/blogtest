@@ -10,6 +10,6 @@ content_img_path: ''
 excerpt: It is highly advisable to keep your résumé interesting, because that is the
   only thing which makes sure that HR or hiring manager reads your full résumé.
 url: https://www.quora.com/Is-it-advisable-to-write-a-really-short-and-direct-resume-or-CV-without-all-the-fuss-about-objectives-and-hobbies/answer/Arpit-Goyal-14
-is_featured: false
+is_featured: true
 
 ---
