@@ -40,6 +40,16 @@ fields:
     name: title
     label: Header Title
     description: The title displayed in the header if no logo image added.
+  - name: description
+    type: textarea
+    default: ''
+    config:
+      required: true
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Default Meta Description
+    description: meta description
   - type: file
     name: logo_img
     label: Logo
