@@ -12,6 +12,10 @@ fields:
   name: subtitle
   label: Subtitle
   description: The text shown just below the post title.
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
 - type: datetime
   name: date
   label: Date
