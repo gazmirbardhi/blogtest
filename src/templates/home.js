@@ -6,20 +6,18 @@ import components, {Layout} from '../components/index';
 import safePrefix from '../utils/safePrefix';
 
 export default class Home extends React.Component {
-
     getList(post, post_idx) {
+      let linkAttributes = {}
+      if (_.get(post, 'frontmatter.is_external')) {
+        linkAttributes.target = "_blank";
+        linkAttributes.rel = "noopener noreferrer";
+      }
       return (
         <article key={post_idx} className="post post-card">
           <div className="post-card-inside">
             {_.get(post, 'frontmatter.thumb_img_path') && 
               (
-                _.get(post, 'frontmatter.is_external')
-                ?
-                <a target="_blank" rel="noopener noreferrer" className="post-card-thumbnail" href={safePrefix(_.get(post, 'frontmatter.url'))}>
-                  <img className="thumbnail" src={safePrefix(_.get(post, 'frontmatter.thumb_img_path'))} alt={_.get(post, 'frontmatter.title')} />
-                </a>
-                :
-                <a className="post-card-thumbnail" href={safePrefix(_.get(post, 'url'))}>
+                <a {...linkAttributes} className="post-card-thumbnail" href={safePrefix(_.get(post, 'url'))}>
                   <img className="thumbnail" src={safePrefix(_.get(post, 'frontmatter.thumb_img_path'))} alt={_.get(post, 'frontmatter.title')} />
                 </a>
               )
@@ -30,18 +28,14 @@ export default class Home extends React.Component {
                   <time className="published"
                   datetime={moment(_.get(post, 'frontmatter.date')).strftime('%Y-%m-%d %H:%M')}>{moment(_.get(post, 'frontmatter.date')).strftime('%B %d, %Y')}</time>
                 </div>
-                <h2 className="post-title"><a href={safePrefix(_.get(post, 'url'))} rel="bookmark">{_.get(post, 'frontmatter.title')}</a></h2>
+                <h2 className="post-title">
+                  <a {...linkAttributes} href={safePrefix(_.get(post, 'url'))} rel="bookmark">{_.get(post, 'frontmatter.title')}</a>
+                </h2>
               </header>
               <div className="post-excerpt">
                 <p>{_.get(post, 'frontmatter.excerpt')}</p>
                 <p className="read-more">
-                  {
-                    _.get(post, 'frontmatter.is_external')
-                    ?
-                    <a target="_blank" rel="noopener noreferrer" className="button inverse" href={safePrefix(_.get(post, 'frontmatter.url'))}>Read more</a>
-                    :
-                    <a className="button inverse" href={safePrefix(_.get(post, 'url'))}>Read more</a>
-                  }
+                  <a {...linkAttributes} className="button inverse" href={safePrefix(_.get(post, 'url'))}>Read more</a>
                 </p>
               </div>
             </div>
