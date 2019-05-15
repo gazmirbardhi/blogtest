@@ -3,7 +3,6 @@
  * ----------------------------------------------------------------------------
  */
 html {
-  font-display: auto;
   font-family: _font(primary);
   font-size: 112.5%;
   height: 100%;
@@ -40,7 +39,6 @@ h4,
 h5,
 h6 {
   color: _palette(secondary);
-  font-display: auto;
   font-family: _font(secondary);
   font-weight: bold;
   line-height: 1.2;
@@ -134,7 +132,6 @@ pre {
 blockquote {
   border-top: 3px solid _palette(border);
   color: _palette(secondary);
-  font-display: auto;
   font-family: _font(secondary);
   font-size: 1.33333rem;
   line-height: 1.4;
