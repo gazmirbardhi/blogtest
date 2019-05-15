@@ -8,6 +8,15 @@ fields:
   description: Site title
   config:
     required: true
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
 - type: select
   name: layout_style
   label: Layout Style
@@ -40,16 +49,6 @@ fields:
     name: title
     label: Header Title
     description: The title displayed in the header if no logo image added.
-  - name: description
-    type: textarea
-    default: ''
-    config:
-      required: true
-      wysiwyg: false
-      schema:
-        format: markdown
-    label: Default Meta Description
-    description: meta description
   - type: file
     name: logo_img
     label: Logo
