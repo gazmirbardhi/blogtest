@@ -1,15 +1,16 @@
 import React from 'react';
-// import _ from 'lodash';
-
-// import safePrefix from '../utils/safePrefix';
+import _ from 'lodash';
+import safePrefix from '../utils/safePrefix';
 
 export default class Header extends React.Component {
     render() {
+      const url = _.get(this.props, 'pageContext.url');
+      const base = safePrefix(_.get(this.props, 'pageContext.site.pathPrefix') || '/');
         return (
             <header id="masthead" className="site-header">
               <div className="go-back__nav is-hidden-mobile has-text-white">
                 <div className="go-back__wrapper">
-                  <a href="//arpitgoyal.com" className="go-back">
+                  <a href={url === base ? "//arpitgoyal.com" : base} className="go-back">
                     <span className="arrow-left">
                     {/*<!-- css generated icon -->*/}
                     </span>
