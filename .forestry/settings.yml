@@ -49,7 +49,7 @@ sections:
   label: Subscribe
   templates:
   - subscribe
-upload_dir: ''
+upload_dir: https://res.cloudinary.com/arpit-goyal/images/upload
 public_path: https://res.cloudinary.com/arpit-goyal/images
 front_matter_path: ''
 use_front_matter_path: 
