@@ -49,8 +49,8 @@ sections:
   label: Subscribe
   templates:
   - subscribe
-upload_dir: https://res.cloudinary.com/arpit-goyal/images/upload
-public_path: https://res.cloudinary.com/arpit-goyal/images
+upload_dir: https://res.cloudinary.com/arpit-goyal/images
+public_path: https://res.cloudinary.com/arpit-goyal/images/upload
 front_matter_path: ''
 use_front_matter_path: 
 file_template: ":filename:"
