@@ -49,10 +49,10 @@ sections:
   label: Subscribe
   templates:
   - subscribe
-upload_dir: static/images
-public_path: "/images"
+upload_dir: ''
+public_path: https://res.cloudinary.com/arpit-goyal/blog
 front_matter_path: ''
-use_front_matter_path: false
+use_front_matter_path: 
 file_template: ":filename:"
 build:
   preview_command: gatsby build
