@@ -4,7 +4,7 @@ title: Wireframe, Mockup, Prototype and other stages of designing process
 date: 2015-01-11T19:25:09.000+00:00
 excerpt: This article is for Designers, Developers, Product Managers, Founders or
   anybody who is part of design feedback loop. You can understand…
-thumb_img_path: images/Wireframe--Mockup--Prototype-and-other-stages-of-designing-process/1-aQP691kIvF7_z8FwMt5Kuw.png
+thumb_img_path: https://res.cloudinary.com/arpit-goyal/image/upload/v1558449781/images/featured-images/stages-in-design.jpg
 subtitle: ''
 content_img_path: ''
 is_external: true
@@ -18,7 +18,7 @@ tags:
 - Product Management
 
 ---
-![](/images/Wireframe--Mockup--Prototype-and-other-stages-of-designing-process/1-aQP691kIvF7_z8FwMt5Kuw.png)
+![](https://res.cloudinary.com/arpit-goyal/image/upload/v1558449781/images/featured-images/stages-in-design.jpg)
 
 This article is for Designers, Developers, Product Managers, Founders or anybody who is part of design feedback loop. You can understand design flow better and give necessary feedback at right time and have clear expectations from design depending on which stage it is.
 
@@ -32,31 +32,31 @@ Design-related roles exist in a range of areas from industrial design (cars, fur
 
 There are some further specializations to Interactive designer: User experience (UX), User interface (UI), Interaction design and Information architecture (IA). But, I won’t talk more about that in this article, a designer who is designing or a part of end-to-end design will go through the processes explained below.
 
-* * *
+***
 
 Designing is done to streamline the development process and hence, design process is obviously very crucial and itself should be streamlined for a good feedback loop and to be tested before finalized.
 
 ### Steps which should be part of design process:
 
-### 1\. Designing your process:
+### 1. Designing your process:
 
 ![](/images/Wireframe--Mockup--Prototype-and-other-stages-of-designing-process/1*nU2rtGhsZao5hKKYjI1nWg.jpeg)
 
 Different designers approach wireframing and its translation to visuals or code in different ways.
 
-It’s not just designer to choose the path to be followed, sometimes due to time constraints clients prefers designers to directly make mockups or may prefer to have wireframing in-house and further steps outsourced. So **define your own sub-set of this process** and you’re good to get started**.**
+It’s not just designer to choose the path to be followed, sometimes due to time constraints clients prefers designers to directly make mockups or may prefer to have wireframing in-house and further steps outsourced. So **define your own sub-set of this process__ and you’re good to get started**.**
 
-* * *
+***
 
-### 2\. Defining strategy:
+### 2. Defining strategy:
 
 Design strategy is a discipline which helps firms determine what to make and do. why do it and how to innovate contextually, both immediately and over the long-term. This process involves the interplay between design and business strategy.
 
-In easier words defining strategy is understanding **Business Goals, User Needs** and defining a basic spec of what will be made from that**, content drafts, site navigation (sitemap) and initial sketches are usually result after designing strategy.**
+In easier words defining strategy is understanding **Business Goals, User Needs__ and defining a basic spec of what will be made from that**, content drafts, site navigation (sitemap) and initial sketches are usually result after designing strategy.**
 
-* * *
+***
 
-### 3\. Getting inspiration:
+### 3. Getting inspiration:
 
 I am not a designer \[yet\], but have a taste and maybe little understanding of design. I am looking to design more and build my own kind-of-design,
 
@@ -64,9 +64,9 @@ Which can be build by copying what you like and making your own changes to it, g
 
 If you constantly observe your favourite designers or agencies’ works, you’ll be able to understand what is it you like about them and can start picking small-small things and start to create your own design language.
 
-* * *
+***
 
-### 4\. Sketching:
+### 4. Sketching:
 
 ![](/images/Wireframe--Mockup--Prototype-and-other-stages-of-designing-process/1*Duruq65OPuBhEy0yFX6gmw.jpeg)
 
@@ -78,9 +78,9 @@ While having initial discussions with Product managers or Founder on how they wo
 
 **Hand sketching on paper** is always a good starting point. It provides a quick and easy way to focus and organize. If you’re very precise with sketching, you could even use this as your final wireframe.
 
-* * *
+***
 
-### 5\. Wireframing:
+### 5. Wireframing:
 
 A wireframe is **a visual representation of content layout in a design**. It helps you **organize and simplify the elements and content** within a space (web or mobile) and is an essential tool in the designing process.
 
@@ -98,9 +98,9 @@ Like the foundation of a building, it has to be fundamentally strong before you 
 
 #### What to avoid while wireframing :
 
-*   Too much happening on the page.
-*   Emphasis on color
-*   Too much detail
+* Too much happening on the page.
+* Emphasis on color
+* Too much detail
 
 #### Benefits of wireframing :
 
@@ -108,15 +108,15 @@ Creating a wireframe gives the client, developer and designer an opportunity to 
 
 Wireframing brings the following key benefits:
 
-*   It gives the client an early, close-up view of the site design (or redesign).
-*   It can inspire the designer, resulting in a more fluid creative process.
-*   It gives the developer a clear picture of the elements that they will need to code.
-*   It makes the call to action on each page clear.
-*   It is easy to adapt and can show the layout of many sections of the website.
+* It gives the client an early, close-up view of the site design (or redesign).
+* It can inspire the designer, resulting in a more fluid creative process.
+* It gives the developer a clear picture of the elements that they will need to code.
+* It makes the call to action on each page clear.
+* It is easy to adapt and can show the layout of many sections of the website.
 
-* * *
+***
 
-### 6\. Mockups/Visual:
+### 6. Mockups/Visual:
 
 Now the final wireframe can be converted to final Mockups or Visual:
 
@@ -138,9 +138,9 @@ Choose visually appealing and readable typography for website with right combina
 
 A Color scheme representing Brand Identity and psychological colors as Red for danger, green for Success, etc.
 
-* * *
+***
 
-### 7\. Prototypes:
+### 7. Prototypes:
 
 ![](/images/Wireframe--Mockup--Prototype-and-other-stages-of-designing-process/1*X5THTg-vfFJUQy9v1okOZw.png)
 
@@ -150,9 +150,9 @@ Wireframes handle structure, mockups handle visuals and **prototypes handle usab
 
 I Suggest [inVision](http://www.invisionapp.com/), [UXpin](https://www.uxpin.com/), [proto.io](https://proto.io/) or you can also have a look at full list here [Prototyping Tools | Cooper](http://www.cooper.com/prototyping-tools)
 
-* * *
+***
 
-### 8\. Handover(Bonus):
+### 8. Handover(Bonus):
 
 ![](/images/Wireframe--Mockup--Prototype-and-other-stages-of-designing-process/1*14MKpcCN3A1Ph6XqxH9I4w.jpeg)
 
@@ -160,9 +160,9 @@ The designers used to handover their designs to developer in form of specs with 
 
 I personally prefer InVision workspace, where you can comment and have feedback cycle with PMs / Developers while designing than create a prototype to represent flow, and same can be used for developers to write HTML/CSS faster.
 
-These Handovers are delivered to developer to implement into a full working product. **Are you curious what they do ? See** [***here What Front end developers do***](http://blog.dlotus.com/frontend/front-end-ui-development/)***.***
+These Handovers are delivered to developer to implement into a full working product. **Are you curious what they do ? See** [**_here What Front end developers do___](http://blog.dlotus.com/frontend/front-end-ui-development/)***.***
 
-* * *
+***
 
 <iframe src="https://contentupgrade.me/eW4az9JY.html?ref=" width="700" height="350" frameborder="0" scrolling="no"></iframe>
 
