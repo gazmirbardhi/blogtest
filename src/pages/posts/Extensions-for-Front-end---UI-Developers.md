@@ -1,27 +1,28 @@
 ---
 template: post
 title: Extensions for Front-end / UI Developers
-date: 2015-10-20T17:37:47.318Z
+date: 2015-10-20T17:37:47.318+00:00
 excerpt: All These extensions are free, so there’s no harm in giving them all a try
   — you can easily disable or remove them by typing…
-thumb_img_path: images/Extensions-for-Front-end---UI-Developers/index.png
+thumb_img_path: https://res.cloudinary.com/arpit-goyal/image/upload/v1558450211/images/featured-images/chrome-extensions-for-web-developers.jpg
 subtitle: ''
 content_img_path: ''
 is_external: true
 url: https://medium.com/a-curious-life/extensions-for-front-end-ui-developers-bfcdaf6a240
 is_featured: false
+tags: []
 
 ---
-All These extensions are **free**, so there’s no harm in giving them all a try — you can easily disable or remove them by typing *chrome://extensions/* into the Chrome address bar and something similar for Firefox as well.
+All These extensions are **free**, so there’s no harm in giving them all a try — you can easily disable or remove them by typing _chrome://extensions/_ into the Chrome address bar and something similar for Firefox as well.
 
-![](/images/Extensions-for-Front-end---UI-Developers/index.png)
+![](https://res.cloudinary.com/arpit-goyal/image/upload/v1558450211/images/featured-images/chrome-extensions-for-web-developers.jpg)
 
-<figcaption>Chrome Web&nbsp;Store</figcaption>
+<figcaption>Chrome Web Store</figcaption>
 
 If you’re Not much of a Developer / Designer ?  
 look at this list of general extensions for every user: [List of Essential Extensions](http://blog.dlotus.com/general/chrome-list-essential-extensions/)
 
-1.  [ColorZilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?hl=en) : Advanced Eyedropper, Color Picker, Gradient Generator and other colorful goodies. also available for Mozilla Firefox ([ColorZilla for firefox](https://addons.mozilla.org/en-US/firefox/addon/colorzilla/))
+1. [ColorZilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?hl=en) : Advanced Eyedropper, Color Picker, Gradient Generator and other colorful goodies. also available for Mozilla Firefox ([ColorZilla for firefox](https://addons.mozilla.org/en-US/firefox/addon/colorzilla/))
 
 ![](/images/Extensions-for-Front-end---UI-Developers/0*X3ve8UzkW7ccI5nx.png)
 
@@ -36,7 +37,7 @@ I just love it’s simple guide adding functionality and freedom for same.
 
 4\. [PostMan](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en): Postman makes API development faster, easier, and better.
 
-5.  [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en): Really good app to understand complex structure of JSON from web source pages and APIs
+1. [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en): Really good app to understand complex structure of JSON from web source pages and APIs
 
 6\. [Web Developer](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm): Multiple tools commonly used by web developers, from working with styles to images.
 
@@ -51,7 +52,7 @@ I just love it’s simple guide adding functionality and freedom for same.
 
 ![](/images/Extensions-for-Front-end---UI-Developers/0*9W4ds-iMvyQ-btcd.png)
 
-<figcaption>WhatFont Extension working on&nbsp;webpage</figcaption>
+<figcaption>WhatFont Extension working on webpage</figcaption>
 
 10\. [PerfectPixel by WellDoneCode](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=en) : This extension allows developers to put a semi-transparent image overlay over the top of the developed HTML and perform per pixel comparison between them.  
 there’s a similar tool “Comps”
