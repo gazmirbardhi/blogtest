@@ -5,12 +5,13 @@ date: 2015-12-03T20:38:13.714+00:00
 excerpt: |-
   Hello fellow Indians!
   How are you doing? How was your day? (I hope good, I don’t want to be called anti-national)
-thumb_img_path: "/images/Diwali-pe-India.jpg"
+thumb_img_path: https://res.cloudinary.com/arpit-goyal/image/upload/v1558448515/images/featured-images/diwali-pe-india.jpg
 subtitle: ''
 content_img_path: ''
 is_external: true
 url: https://medium.com/a-curious-life/indian-social-media-rumour-hoax-and-how-we-react-723c72fb8f40
 is_featured: false
+tags: []
 
 ---
 Hello fellow Indians!  
