@@ -2,7 +2,7 @@
 template: post
 is_external: true
 title: List of the Essential Extensions
-date: 2015-02-02T14:26:06.000Z
+date: 2015-02-02T00:00:00+05:30
 excerpt: Google Chrome is a fast, simple and secure web browser, built for the modern
   web.
 thumb_img_path: https://res.cloudinary.com/arpit-goyal/image/upload/v1558449605/images/featured-images/essential-chrome-extensions.jpg
