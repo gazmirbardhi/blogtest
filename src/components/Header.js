@@ -8,7 +8,7 @@ export default class Header extends React.Component {
       const base = safePrefix(_.get(this.props, 'pageContext.site.pathPrefix') || '/');
         return (
             <header id="masthead" className="site-header">
-              <div className="go-back__nav is-hidden-mobile has-text-white">
+              <div className="go-back__nav has-text-white">
                 <div className="go-back__wrapper">
                   <a href={url === base ? "//arpitgoyal.com" : base} className="go-back">
                     <span className="arrow-left">
