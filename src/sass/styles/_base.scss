@@ -60,7 +60,9 @@ a.has-text-white:hover, a.has-text-white:focus {
   position: absolute;
   top: 50px;
   left: 50px;
-  z-index: 2;
+  .has-bg & {
+    z-index: 2;
+  }
 }
 .go-back__wrapper{
   position: relative;
@@ -68,6 +70,8 @@ a.has-text-white:hover, a.has-text-white:focus {
 .go-back {
   display: block;
   position: relative;
+  text-decoration: none;
+  border-width: 0;
 }
 .arrow-left {
   width: 10px;
@@ -81,13 +85,18 @@ a.has-text-white:hover, a.has-text-white:focus {
   padding: 0;
   width: 8px;
   height: 8px;
-  border-top: 2px solid $white;
-  border-right: 2px solid $white;
+  border-top: 2px solid #108afb;
+  border-right: 2px solid #108afb;
   transform: rotate(225deg);
   position: absolute;
   top: 50%;
   left: 0;
-  margin-top: -4px;
+  margin-top: -5px;
+  .has-bg & {
+    border-top: 2px solid $white;
+    border-right: 2px solid $white;
+    margin-top: -4px;
+  }
 }
 .back-title {
   text-transform: uppercase;
@@ -103,8 +112,11 @@ a.has-text-white:hover, a.has-text-white:focus {
   margin-top: -1px;
   width: 40px;
   height: 2px;
-  background: $white;
+  background: #108afb;
   content: ' ';
+  .has-bg & {
+    background: $white;
+  }
 }
 
 @keyframes elasticus {
