@@ -1,0 +1,25 @@
+@import "variables";
+
+@import "~bulma/sass/utilities/_all.sass";
+
+@import "~bulma/sass/base/_all.sass";
+
+@import "~bulma/sass/elements/box.sass";
+@import "~bulma/sass/elements/button.sass";
+@import "~bulma/sass/elements/container.sass";
+@import "~bulma/sass/elements/content.sass";
+@import "~bulma/sass/elements/title.sass";
+
+@import "~bulma/sass/components/card.sass";
+@import "~bulma/sass/components/level.sass";
+@import "~bulma/sass/components/modal.sass";
+
+@import "~bulma/sass/grid/_all.sass";
+
+@import "~bulma/sass/layout/_all.sass";
+
+@import "base";
+@import "depth";
+@import "modal";
+@import "page/home";
+@import "page/work";
