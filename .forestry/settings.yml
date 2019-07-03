@@ -46,7 +46,7 @@ sections:
   - post
 - type: directory
   path: src/pages/products
-  label: Product
+  label: Products
   create: all
   match: "**/*"
   templates:
