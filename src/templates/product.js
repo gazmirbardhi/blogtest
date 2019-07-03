@@ -6,7 +6,7 @@ import htmlToReact from '../utils/htmlToReact';
 import {Layout} from '../components/index';
 import safePrefix from '../utils/safePrefix';
 
-export default class Post extends React.Component {
+export default class Product extends React.Component {
     render() {
         return (
             <Layout {...this.props}>
