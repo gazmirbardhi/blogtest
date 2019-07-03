@@ -44,6 +44,13 @@ sections:
   match: "**/*"
   templates:
   - post
+- type: directory
+  path: src/pages/products
+  label: Product
+  create: all
+  match: "**/*"
+  templates:
+  - product
 - type: document
   path: src/data/subscribe.json
   label: Subscribe
