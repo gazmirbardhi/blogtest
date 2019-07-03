@@ -1,0 +1,37 @@
+---
+label: Product
+hide_body: false
+fields:
+- type: text
+  name: template
+  label: template
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: textarea
+  name: excerpt
+  label: excerpt
+- type: file
+  name: thumb_img_path
+  label: thumb_img_path
+- type: text
+  name: subtitle
+  label: subtitle
+- type: text
+  name: content_img_path
+  label: content_img_path
+- type: boolean
+  name: is_external
+  label: is_external
+- type: textarea
+  name: url
+  label: url
+- type: boolean
+  name: is_featured
+  label: is_featured
+- type: list
+  name: tags
+  label: tags
