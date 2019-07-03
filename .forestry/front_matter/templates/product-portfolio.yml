@@ -1,0 +1,27 @@
+---
+label: Product Portfolio
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: list
+  name: sections
+  label: sections
+- type: field_group
+  name: menus
+  label: menus
+  fields:
+  - type: field_group
+    name: main
+    label: main
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: number
+      name: weight
+      label: weight
+- type: text
+  name: template
+  label: template
