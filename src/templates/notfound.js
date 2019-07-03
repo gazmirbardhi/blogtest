@@ -5,7 +5,7 @@ import moment from 'moment-strftime';
 import components, {LayoutTwo} from '../components/index';
 import safePrefix from '../utils/safePrefix';
 
-export default class Home extends React.Component {
+export default class Notfound extends React.Component {
     render() {
         return (
             <LayoutTwo {...this.props}>
