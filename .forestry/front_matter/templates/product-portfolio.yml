@@ -23,3 +23,4 @@ fields:
     required: true
 pages:
 - src/pages/product-portfolio.md
+- src/pages/product-portfolio.md
