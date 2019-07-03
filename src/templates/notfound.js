@@ -9,18 +9,18 @@ export default class Notfound extends React.Component {
     render() {
         return (
             <LayoutTwo {...this.props}>
-              <main class="container is-fluid">
-                <section class="section hero is-fullheight">
-                  <div class="hero-body has-text-white">
-                    <div class="container is-fluid">
-                      <div class="columns is-vcentered">
-                        <div class="column is-three-fifths no-padding content is-large has-text-centered-mobile">
-                          <h1 class="title is-1 has-text-primary has-text-weight-bold">Oops..</h1>
-                          <h3 class="title is-3 is-size-5-mobile has-text-primary negative-margin-top">The treasure is somewhere else!</h3>
-                          {/*<p class="has-text-primary">The page you're looking for doesn't exist</p>*/}
-                          <a href="/" class="button is-primary is-large">Let's go home</a>
+              <main className="container is-fluid">
+                <section className="section hero is-fullheight">
+                  <div className="hero-body has-text-white">
+                    <div className="container is-fluid">
+                      <div className="columns is-vcentered">
+                        <div className="column is-three-fifths no-padding content is-large has-text-centered-mobile">
+                          <h1 className="title is-1 has-text-primary has-text-weight-bold">Oops..</h1>
+                          <h3 className="title is-3 is-size-5-mobile has-text-primary negative-margin-top">The treasure is somewhere else!</h3>
+                          {'{'}/*<p className="has-text-primary">The page you're looking for doesn't exist</p>*/{'}'}
+                          <a href="/" className="button is-primary is-large">Let's go home</a>
                         </div>
-                        <div class="column is-two-fifths">
+                        <div className="column is-two-fifths">
                           <img src={safePrefix(_.get(this.props, 'pageContext.frontmatter.img_path'))} alt={_.get(this.props, 'pageContext.frontmatter.title')} />
                         </div>
                       </div>
