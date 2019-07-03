@@ -21,7 +21,7 @@ export default class Notfound extends React.Component {
                           <a href="/" class="button is-primary is-large">Let's go home</a>
                         </div>
                         <div class="column is-two-fifths">
-                          <img src="../images/pirate.png"/>
+                          <img src={safePrefix(_.get(this.props, 'pageContext.frontmatter.img_path'))} alt={_.get(this.props, 'pageContext.frontmatter.title')} />
                         </div>
                       </div>
                     </div>
