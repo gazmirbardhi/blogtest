@@ -9,7 +9,7 @@ content_img_path: ''
 excerpt: 'Case study: Improving conversions for Zivame'
 is_external: false
 url: ''
-is_featured: true
+is_featured: false
 
 ---
 # Industrial project
