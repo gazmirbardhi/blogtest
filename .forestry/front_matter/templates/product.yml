@@ -56,4 +56,5 @@ fields:
   label: Is Featured
   description: Is this post the featured post
 pages:
+- src/pages/products/survey-a-survey-to-understand-user-needs-in-furniture-rental-space.md
 - src/pages/products/survey-for-furniture-rental-industry.md
