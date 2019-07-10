@@ -12,4 +12,6 @@ url: ''
 is_featured: false
 
 ---
-Analysis of Ola Cabs as a competitor of Meru Cabs
+# Competitor analysis
+
+## Analysis of Ola Cabs as a competitor of Meru Cabs
