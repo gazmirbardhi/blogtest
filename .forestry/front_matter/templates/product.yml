@@ -16,12 +16,6 @@ fields:
   type: tag_list
   default: []
   label: Tags
-- type: datetime
-  name: date
-  label: Date
-  config:
-    required: true
-  default: now
 - type: file
   name: thumb_img_path
   label: Featured Image
