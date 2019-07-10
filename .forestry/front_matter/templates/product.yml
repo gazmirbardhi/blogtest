@@ -44,7 +44,7 @@ fields:
   type: boolean
   label: Is external
   description: Is this post a link to an external post(true by default)
-  default: true
+  default: false
 - name: url
   type: text
   config:
