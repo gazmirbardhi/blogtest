@@ -24,10 +24,10 @@ export default class ProductPortfolio extends React.Component {
             }
             <div className="post-card-content">
               <header className="post-header">
-                <div className="post-meta">
+                {/*<div className="post-meta">
                   <time className="published"
                   dateTime={moment(_.get(post, 'frontmatter.date')).strftime('%Y-%m-%d %H:%M')}>{moment(_.get(post, 'frontmatter.date')).strftime('%B %d, %Y')}</time>
-                </div>
+                </div>*/}
                 <h2 className="post-title">
                   <a {...linkAttributes} href={safePrefix(_.get(post, 'url'))} rel="bookmark">{_.get(post, 'frontmatter.title')}</a>
                 </h2>
