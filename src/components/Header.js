@@ -4,13 +4,20 @@ import safePrefix from '../utils/safePrefix';
 
 export default class Header extends React.Component {
     render() {
-      const url = _.get(this.props, 'pageContext.url');
-      const base = safePrefix(_.get(this.props, 'pageContext.site.pathPrefix') || '/');
+        const url  = _.get(this.props, 'pageContext.url');
+        const base = safePrefix(_.get(this.props, 'pageContext.site.pathPrefix') || '/');
+        let href = base;
+        if (url === base) {
+          href = "//arpitgoyal.com"
+        }
+        else if(url.indexOf('/products/') > -1){
+          href = '/product-portfolio/'
+        }
         return (
             <header id="masthead" className="site-header">
               <div className="go-back__nav has-text-white">
                 <div className="go-back__wrapper">
-                  <a href={url === base ? "//arpitgoyal.com" : base} className="go-back">
+                  <a href={href} className="go-back">
                     <span className="arrow-left">
                     {/*<!-- css generated icon -->*/}
                     </span>
