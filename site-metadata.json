@@ -20,6 +20,11 @@
         "text": "Contact",
         "url": "/contact/",
         "new_window": false
+      },
+      {
+        "text": "Product Portfolio",
+        "url": "https://blog.arpitgoyal.com/product-portfolio/",
+        "new_window": false
       }
     ],
     "has_social": true

@@ -56,6 +56,8 @@ fields:
   label: Is Featured
   description: Is this post the featured post
 pages:
+- src/pages/products/competitor-analysis.md
+- src/pages/products/survey.md
 - src/pages/products/industrial-project.md
 - src/pages/products/building-a-mvp.md
 - src/pages/products/wireframe-and-prototype.md
@@ -63,5 +65,3 @@ pages:
 - src/pages/products/design-fundamentals.md
 - src/pages/products/product-artifacts.md
 - src/pages/products/contextual-inquiry.md
-- src/pages/products/survey.md
-- src/pages/products/competitor-analysis.md
