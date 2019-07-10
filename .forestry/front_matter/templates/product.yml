@@ -16,6 +16,16 @@ fields:
   type: tag_list
   default: []
   label: Tags
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: true
+    date_format: 
+    time_format: 
+    display_utc: false
+  default: now
 - type: file
   name: thumb_img_path
   label: Featured Image
