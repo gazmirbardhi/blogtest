@@ -32,8 +32,8 @@ export default class Body extends React.Component {
                         {this.props.children}
                       </main>
                     </div>
-                    {_.get(this.props, 'pageContext.site.data.subscribe.enabled') && 
-                      <Subscribe {...this.props} />
+                    {/*_.get(this.props, 'pageContext.site.data.subscribe.enabled') && 
+                      <Subscribe {...this.props} />*/
                     }
                     {/*<Footer {...this.props} />*/}
                   </div>
