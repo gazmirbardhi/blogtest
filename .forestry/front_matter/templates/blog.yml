@@ -4,22 +4,24 @@ hide_body: true
 fields:
 - type: text
   name: title
-  label: Title
-  description: The title of the page.
-  config:
-    required: true
+  label: title
 - type: list
   name: sections
-  label: Sections
-  description: Blog page sections
-  config:
-    use_select: false
-    source:
-      type: pages
+  label: sections
+- type: field_group
+  name: menus
+  label: menus
+  fields:
+  - type: field_group
+    name: main
+    label: main
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: number
+      name: weight
+      label: weight
 - type: text
   name: template
-  label: Template
-  hidden: true
-  config:
-    required: true
-  default: home
+  label: template
