@@ -8,6 +8,11 @@ fields:
   description: The title of the page.
   config:
     required: true
+- name: illustration_image
+  type: file
+  config:
+    maxSize: 250
+  label: illustration image
 - name: build_image
   type: file
   config:
