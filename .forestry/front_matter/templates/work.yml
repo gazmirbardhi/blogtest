@@ -1,0 +1,37 @@
+---
+label: Work
+hide_body: false
+fields:
+- type: list
+  name: tags
+  label: tags
+- type: text
+  name: template
+  label: template
+- type: text
+  name: title
+  label: title
+- type: text
+  name: subtitle
+  label: subtitle
+- type: datetime
+  name: date
+  label: date
+- type: file
+  name: thumb_img_path
+  label: thumb_img_path
+- type: text
+  name: content_img_path
+  label: content_img_path
+- type: text
+  name: excerpt
+  label: excerpt
+- type: boolean
+  name: is_external
+  label: is_external
+- type: text
+  name: url
+  label: url
+- type: boolean
+  name: is_featured
+  label: is_featured
