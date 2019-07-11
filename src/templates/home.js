@@ -10,7 +10,7 @@ export default class Notfound extends React.Component {
         return (
             <LayoutTwo {...this.props}>
               <main className="image-container">
-                <img src="../images/arpit-goyal.png" />
+                <img src={safePrefix(_.get(this.props, 'pageContext.frontmatter.illustration_image'))} alt="Illustration" />
                 <section className="section hero is-fullheight">
                   <div className="hero-body has-text-white">
                     <div className="container is-fluid">
