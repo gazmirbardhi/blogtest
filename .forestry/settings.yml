@@ -33,8 +33,8 @@ sections:
   path: src/pages
   label: Pages
   create: all
-  match: "*"
-  exclude: "{works/**,posts/**,products/**,work-portfolio.md,product-portfolio.md,index.md,contact.md,blog.md}"
+  match: "**/*"
+  exclude: "{works/**,posts/**,products/**,work-portfolio.md,product-portfolio.md,index.md,contact.md}"
   templates:
   - page
 - type: directory
