@@ -30,10 +30,7 @@ export default class Notfound extends React.Component {
                                   href="/work"
                                   className="tile is-child box things-i-do"
                                 >
-                                  <img
-                                    src="../images/code.png"
-                                    alt="Illustration"
-                                  />
+                                  <img src={safePrefix(_.get(this.props, 'pageContext.frontmatter.img_path'))} alt={_.get(this.props, 'pageContext.frontmatter.title')} />
                                   <p className="title">Build</p>
                                   <p>
                                     I build products.<br />Code &amp; design.
@@ -45,10 +42,7 @@ export default class Notfound extends React.Component {
                                   href="//blog.arpitgoyal.com"
                                   className="tile is-child box things-i-do"
                                 >
-                                  <img
-                                    src="../images/write.png"
-                                    alt="Illustration"
-                                  />
+                                  <img src={safePrefix(_.get(this.props, 'pageContext.frontmatter.img_path'))} alt={_.get(this.props, 'pageContext.frontmatter.title')} />
                                   <p className="title">Blog</p>
                                   <p>
                                     I write, and<br />share my opinions
@@ -57,10 +51,7 @@ export default class Notfound extends React.Component {
                               </div>
                               <div className="tile is-horizontal is-parent is-hidden-mobile">
                                 <div className="tile is-child box things-i-do coming-soon">
-                                  <img
-                                    src="../images/everything.png"
-                                    alt="Illustration"
-                                  />
+                                  <img src={safePrefix(_.get(this.props, 'pageContext.frontmatter.img_path'))} alt={_.get(this.props, 'pageContext.frontmatter.title')} />
                                   <p className="title three" />
                                   <p>
                                     Travelling, Cycling,<br />everything else
