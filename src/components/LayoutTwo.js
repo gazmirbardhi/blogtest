@@ -3,9 +3,9 @@ import {Helmet} from 'react-helmet';
 import _ from 'lodash';
 
 import safePrefix from '../utils/safePrefix';
-import Header from './Header';
+// import Header from './Header';
 import Subscribe from './Subscribe';
-import Footer from './Footer';
+// import Footer from './Footer';
 
 export default class Body extends React.Component {
     render() {

@@ -1,8 +1,8 @@
 import React from 'react';
 import _ from 'lodash';
-import moment from 'moment-strftime';
+// import moment from 'moment-strftime';
 
-import components, {LayoutTwo} from '../components/index';
+import {LayoutTwo} from '../components/index';
 import safePrefix from '../utils/safePrefix';
 
 export default class Notfound extends React.Component {

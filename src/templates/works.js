@@ -1,6 +1,6 @@
 import React from 'react';
 import _ from 'lodash';
-import moment from 'moment-strftime';
+// import moment from 'moment-strftime';
 
 import components, {Layout} from '../components/index';
 import safePrefix from '../utils/safePrefix';
@@ -23,20 +23,28 @@ export default class ProductPortfolio extends React.Component {
               )
             }
             <div className="post-card-content">
-              <header className="post-header">
-                {/*<div className="post-meta">
-                  <time className="published"
-                  dateTime={moment(_.get(post, 'frontmatter.date')).strftime('%Y-%m-%d %H:%M')}>{moment(_.get(post, 'frontmatter.date')).strftime('%B %d, %Y')}</time>
-                </div>*/}
-                <h2 className="post-title">
-                  <a {...linkAttributes} href={safePrefix(_.get(post, 'url'))} rel="bookmark">{_.get(post, 'frontmatter.title')}</a>
-                </h2>
-              </header>
-              <div className="post-excerpt">
-                <p>{_.get(post, 'frontmatter.excerpt')}</p>
-                <p className="read-more">
-                  <a {...linkAttributes} className="button inverse" href={safePrefix(_.get(post, 'url'))}>Take a look</a>
-                </p>
+              <div className="container is-fluid">
+                <div className="columns is-vcentered">
+                  <div className="column is-three-fifths">
+                    <header className="post-header">
+                      {/*<div className="post-meta">
+                        <time className="published"
+                        dateTime={moment(_.get(post, 'frontmatter.date')).strftime('%Y-%m-%d %H:%M')}>{moment(_.get(post, 'frontmatter.date')).strftime('%B %d, %Y')}</time>
+                      </div>*/}
+                      <h2 className="post-title">
+                        <a {...linkAttributes} href={safePrefix(_.get(post, 'url'))} rel="bookmark">{_.get(post, 'frontmatter.title')}</a>
+                      </h2>
+                    </header>
+                  </div>
+                  <div className="column is-two-fifths">
+                    <div className="post-excerpt">
+                      <p>{_.get(post, 'frontmatter.excerpt')}</p>
+                      <p className="read-more">
+                        <a {...linkAttributes} className="button inverse" href={safePrefix(_.get(post, 'url'))}>Take a look</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
