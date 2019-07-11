@@ -13,6 +13,9 @@ export default class Header extends React.Component {
         else if(url.indexOf('/products/') > -1){
           href = '/product-portfolio/'
         }
+        else if(url.indexOf('/works/') > -1){
+          href = '/work-portfolio/'
+        }
         return (
             <header id="masthead" className="site-header">
               <div className="go-back__nav has-text-white">
