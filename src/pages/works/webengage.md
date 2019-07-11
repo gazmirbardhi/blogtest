@@ -7,8 +7,8 @@ subtitle: ''
 thumb_img_path: https://res.cloudinary.com/arpit-goyal/image/upload/v1562815469/webengage.png
 content_img_path: ''
 excerpt: ''
-is_external: false
-url: ''
+is_external: true
+url: https://webengage.com/
 is_featured: false
 
 ---
