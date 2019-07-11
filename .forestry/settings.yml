@@ -32,9 +32,9 @@ sections:
 - type: directory
   path: src/pages
   label: Pages
-  create: all
+  create: documents
   match: "**/*"
-  exclude: "{works/**,posts/**,products/**,works.md,product-portfolio.md,index.md,contact.md}"
+  exclude: "{works/**,posts/**,products/**,work-portfolio.md,product-portfolio.md,index.md,contact.md}"
   templates:
   - page
 - type: directory
