@@ -27,11 +27,11 @@ export default class Body extends React.Component {
                 </Helmet>
                   <div id="page" className={'site layout-' + _.get(this.props, 'pageContext.site.siteMetadata.layout_style') + ' palette-' + _.get(this.props, 'pageContext.site.siteMetadata.palette')}>
                     {/*<Header {...this.props} />*/}
-                    <div id="content" className="site-content">
-                      <main id="main" className="site-main inner">
+                    {/*<div id="content" className="site-content">
+                      <main id="main" className="site-main inner">*/}
                         {this.props.children}
-                      </main>
-                    </div>
+                      {/*</main>
+                    </div>*/}
                     {/*_.get(this.props, 'pageContext.site.data.subscribe.enabled') && 
                       <Subscribe {...this.props} />*/
                     }
