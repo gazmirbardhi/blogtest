@@ -17,7 +17,7 @@ export default class Notfound extends React.Component {
                         <div className="column is-three-fifths no-padding content is-large has-text-centered-mobile">
                           <h1 className="title is-1 has-text-primary has-text-weight-bold">Oops..</h1>
                           <h3 className="title is-3 is-size-5-mobile has-text-primary negative-margin-top">The treasure is somewhere else!</h3>
-                          {'{'}/*<p className="has-text-primary">The page you're looking for doesn't exist</p>*/{'}'}
+                          {/*<p className="has-text-primary">The page you're looking for doesn't exist</p>*/}
                           <a href="/" className="button is-primary is-large">Let's go home</a>
                         </div>
                         <div className="column is-two-fifths">
