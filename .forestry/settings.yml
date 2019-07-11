@@ -4,13 +4,6 @@ auto_deploy: false
 admin_path: static/admin
 webhook_url: https://api.stackbit.com/project/5cc88c973985b400112b8857/webhook/forestry
 sections:
-- type: directory
-  path: src/pages/works
-  label: Works
-  create: all
-  match: "**/*"
-  templates:
-  - work
 - type: document
   path: site-metadata.json
   label: Global Site Config
@@ -58,6 +51,13 @@ sections:
   match: "**/*"
   templates:
   - product
+- type: directory
+  path: src/pages/works
+  label: Works
+  create: all
+  match: "**/*"
+  templates:
+  - work
 - type: document
   path: src/pages/product-portfolio.md
   label: Product Portfolio
