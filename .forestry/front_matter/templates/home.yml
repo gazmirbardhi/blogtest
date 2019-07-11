@@ -8,6 +8,21 @@ fields:
   description: The title of the page.
   config:
     required: true
+- name: build_image
+  type: file
+  config:
+    maxSize: 250
+  label: Build Image
+- name: blog_image
+  type: file
+  config:
+    maxSize: 250
+  label: Blog Image
+- name: everything_else_image
+  type: file
+  config:
+    maxSize: 250
+  label: Everything else Image
 - type: blocks
   name: sections
   label: Sections
