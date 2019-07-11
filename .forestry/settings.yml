@@ -5,10 +5,6 @@ admin_path: static/admin
 webhook_url: https://api.stackbit.com/project/5cc88c973985b400112b8857/webhook/forestry
 sections:
 - type: document
-  path: src/pages/work-portfolio.md
-  label: Work Portfolio
-  match: "**/*"
-- type: document
   path: site-metadata.json
   label: Global Site Config
   templates:
@@ -63,8 +59,15 @@ sections:
   templates:
   - work
 - type: document
+  path: src/pages/blog.md
+  label: Blog
+  match: "**/*"
+- type: document
   path: src/pages/product-portfolio.md
   label: Product Portfolio
+- type: document
+  path: src/pages/work-portfolio.md
+  label: Work Portfolio
 - type: document
   path: src/data/subscribe.json
   label: Subscribe
