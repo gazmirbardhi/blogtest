@@ -40,7 +40,7 @@ export default class ProductPortfolio extends React.Component {
                     <div className="post-excerpt">
                       <p>{_.get(post, 'frontmatter.excerpt')}</p>
                       <p className="read-more">
-                        <a {...linkAttributes} className="button inverse" href={safePrefix(_.get(post, 'url'))}>Take a look</a>
+                        <a {...linkAttributes} className="button is-primary is-outlined" href={safePrefix(_.get(post, 'url'))}>Take a look</a>
                       </p>
                     </div>
                   </div>

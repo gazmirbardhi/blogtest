@@ -318,18 +318,18 @@ input[type="reset"],
   }
 }
 
-.button.inverse {
-  background: 0;
-  color: _palette(accent);
+// .button.inverse {
+//   background: 0;
+//   color: _palette(accent);
 
-  &:hover,
-  &:focus,
-  &:active {
-    background: _palette(accent);
-    border-color: _palette(accent);
-    color: #fff;
-  }
-}
+//   &:hover,
+//   &:focus,
+//   &:active {
+//     background: _palette(accent);
+//     border-color: _palette(accent);
+//     color: #fff;
+//   }
+// }
 
 a.button {
   padding-bottom: 0.60714em;
