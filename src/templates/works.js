@@ -22,16 +22,16 @@ export default class ProductPortfolio extends React.Component {
                 </a>
               )
             }
-            <div className="post-card-content">
+            {/*<div className="post-card-content">*/}
               <div className="container is-fluid">
                 <div className="columns is-vcentered">
                   <div className="column is-three-fifths">
-                    <header className="post-header">
+                    <header className="post-header is-marginless">
                       {/*<div className="post-meta">
                         <time className="published"
                         dateTime={moment(_.get(post, 'frontmatter.date')).strftime('%Y-%m-%d %H:%M')}>{moment(_.get(post, 'frontmatter.date')).strftime('%B %d, %Y')}</time>
                       </div>*/}
-                      <h2 className="post-title">
+                      <h2 className="post-title is-marginless">
                         <a {...linkAttributes} href={safePrefix(_.get(post, 'url'))} rel="bookmark">{_.get(post, 'frontmatter.title')}</a>
                       </h2>
                     </header>
@@ -46,7 +46,7 @@ export default class ProductPortfolio extends React.Component {
                   </div>
                 </div>
               </div>
-            </div>
+            {/*</div>*/}
           </div>
         </article>
       )
