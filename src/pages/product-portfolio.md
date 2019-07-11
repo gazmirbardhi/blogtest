@@ -5,6 +5,6 @@ menus:
   main:
     title: Product Portfolio
     weight: 1
-template: products
+template: product-portfolio
 
 ---
