@@ -1,6 +1,6 @@
 @import "variables";
 
-body.has-bg{
+.has-bg{
   background-color: $color-primary;
   background: linear-gradient(90deg, $color-primary 0%, #a8d7ff 100%);
 }
