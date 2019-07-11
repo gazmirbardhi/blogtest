@@ -41,5 +41,20 @@ fields:
   default: home
   config:
     required: true
+- name: quora_icon
+  type: file
+  config:
+    maxSize: 250
+  label: quora icon
+- name: medium_icon
+  type: file
+  config:
+    maxSize: 250
+  label: medium icon
+- name: twitter_icon
+  type: file
+  config:
+    maxSize: 250
+  label: twitter icon
 pages:
 - src/pages/index.md
