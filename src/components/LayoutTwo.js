@@ -4,7 +4,7 @@ import _ from 'lodash';
 
 import safePrefix from '../utils/safePrefix';
 // import Header from './Header';
-import Subscribe from './Subscribe';
+// import Subscribe from './Subscribe';
 // import Footer from './Footer';
 
 export default class Body extends React.Component {
