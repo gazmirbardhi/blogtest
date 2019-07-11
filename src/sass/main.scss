@@ -1,8 +1,8 @@
-
+$system-font: BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 // Font.
 $font: (
-  primary: ("PT Sans", sans-serif),
-  secondary: ("PT Serif", serif)
+  primary: $system-font
+  secondary: $system-font
 );
 
 // Palette.
