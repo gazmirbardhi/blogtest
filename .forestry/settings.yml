@@ -32,7 +32,7 @@ sections:
 - type: directory
   path: src/pages
   label: Pages
-  create: documents
+  create: all
   match: "**/*"
   exclude: "{works/**,posts/**,products/**,work-portfolio.md,product-portfolio.md,index.md,contact.md}"
   templates:
@@ -61,7 +61,6 @@ sections:
 - type: document
   path: src/pages/blog.md
   label: Blog
-  match: "**/*"
 - type: document
   path: src/pages/product-portfolio.md
   label: Product Portfolio
