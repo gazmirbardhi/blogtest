@@ -7,11 +7,6 @@
     "content": "",
     "links": [
       {
-        "text": "Works",
-        "url": "/work-portfolio/",
-        "new_window": false
-      },
-      {
         "text": "Home",
         "url": "//arpitgoyal.com/",
         "new_window": false
@@ -24,6 +19,11 @@
       {
         "text": "Contact",
         "url": "/contact/",
+        "new_window": false
+      },
+      {
+        "text": "Works",
+        "url": "/work-portfolio/",
         "new_window": false
       },
       {
