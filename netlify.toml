@@ -1,3 +1,8 @@
 [build]
 publish = "public"
 command = "./ssg-build.sh"
+[[redirects]]
+  from = "/resume"
+  to = "https://goo.gl/a4cyCw"
+  status = 200
+  force = true
