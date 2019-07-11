@@ -5,6 +5,6 @@ menus:
   main:
     title: Home
     weight: 1
-template: blog
+template: home
 
 ---
