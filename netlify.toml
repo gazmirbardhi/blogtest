@@ -2,6 +2,11 @@
 publish = "public"
 command = "./ssg-build.sh"
 [[redirects]]
+  from = "https://ag-blog.netlify.com/*"
+  to = "https://arpitgoyal.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
   from = "://blog.arpitgoyal.com"
   to = "/blog"
   status = 301
