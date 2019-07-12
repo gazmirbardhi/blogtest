@@ -50,6 +50,9 @@ export default class ProductPortfolio extends React.Component {
         const non_featured_posts = display_posts.filter(page => !_.get(page, 'frontmatter.is_featured'))
         return (
             <Layout {...this.props}>
+              <header className="post-header">
+                <h1 className="post-title">Product portfolio</h1>
+              </header>
               {_.map(_.get(this.props, 'pageContext.frontmatter.sections'), (section, section_idx) => {
                   let GetSectionComponent = components[_.get(section, 'component')];
                   return (
