@@ -24,5 +24,9 @@ social_icons:
 - https://res.cloudinary.com/arpit-goyal/image/upload/v1562868460/quora.svg
 - https://res.cloudinary.com/arpit-goyal/image/upload/v1562868460/medium.svg
 - https://res.cloudinary.com/arpit-goyal/image/upload/v1562868460/twitter.svg
+things_i_do_illustrations:
+- https://res.cloudinary.com/arpit-goyal/image/upload/v1562861242/code.png
+- https://res.cloudinary.com/arpit-goyal/image/upload/v1562861242/write.png
+- https://res.cloudinary.com/arpit-goyal/image/upload/v1562861242/everything.png
 
 ---
