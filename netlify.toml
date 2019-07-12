@@ -8,12 +8,12 @@ command = "./ssg-build.sh"
   force = true
 [[redirects]]
   from = "https://blog.arpitgoyal.com/*"
-  to = "/blog"
+  to = "https://arpitgoyal.com/blog/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "http://blog.arpitgoyal.com/*"
-  to = "/blog"
+  to = "https://arpitgoyal.com/blog/:splat"
   status = 301
   force = true
 [[redirects]]
