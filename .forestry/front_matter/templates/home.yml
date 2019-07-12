@@ -58,3 +58,4 @@ fields:
   label: twitter icon
 pages:
 - src/pages/index.md
+- src/pages/index.md
