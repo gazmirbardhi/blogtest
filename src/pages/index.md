@@ -20,5 +20,9 @@ excerpt: Hi, I'm Arpit Goyal, Engineer with an eye for design. Startup guy, UX c
   products and making money.
 header: Arpit Goyal
 secondary_header: Product Manager | Engineer with an eye for design
+social_icons:
+- https://res.cloudinary.com/arpit-goyal/image/upload/v1562868460/quora.svg
+- https://res.cloudinary.com/arpit-goyal/image/upload/v1562868460/medium.svg
+- https://res.cloudinary.com/arpit-goyal/image/upload/v1562868460/twitter.svg
 
 ---
