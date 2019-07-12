@@ -8,6 +8,16 @@ fields:
   description: The title of the page.
   config:
     required: true
+- name: excerpt
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Excerpt
+  description: Meta Description
 - type: blocks
   name: sections
   label: Sections
