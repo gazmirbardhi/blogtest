@@ -15,5 +15,10 @@ medium_icon: https://res.cloudinary.com/arpit-goyal/image/upload/v1562864636/med
 twitter_icon: https://res.cloudinary.com/arpit-goyal/image/upload/v1562864645/twitter.svg
 keywords: '"arpit", "goyal", "mumbai", "Jaipur", "Product Manager", "UX designer",
   "india", "developer", "frontend", "arpit goyal", "goyalarpit", "arpitgoyal"'
+excerpt: Hi, I'm Arpit Goyal, Engineer with an eye for design. Startup guy, UX consultant
+  @ MTX Group Inc. | Follow this blog to read about career advice, technologies, startups,
+  products and making money.
+header: Arpit Goyal
+secondary_header: Product Manager | Engineer with an eye for design
 
 ---
