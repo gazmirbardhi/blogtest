@@ -148,3 +148,7 @@ a.has-text-white:hover, a.has-text-white:focus {
     transform: scale(1, 1);
   }
 }
+
+a {
+    color: $color-primary;
+}
