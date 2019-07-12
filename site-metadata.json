@@ -7,6 +7,11 @@
     "content": "",
     "links": [
       {
+        "text": "Blog",
+        "url": "/blog/",
+        "new_window": false
+      },
+      {
         "text": "Home",
         "url": "//arpitgoyal.com/",
         "new_window": false
