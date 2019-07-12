@@ -7,23 +7,13 @@
     "content": "",
     "links": [
       {
-        "text": "Blog",
-        "url": "/blog/",
-        "new_window": false
-      },
-      {
         "text": "Home",
         "url": "//arpitgoyal.com/",
         "new_window": false
       },
       {
-        "text": "About",
-        "url": "/about/",
-        "new_window": false
-      },
-      {
-        "text": "Contact",
-        "url": "/contact/",
+        "text": "Blog",
+        "url": "/blog/",
         "new_window": false
       },
       {
@@ -34,6 +24,16 @@
       {
         "text": "Product Portfolio",
         "url": "/product-portfolio/",
+        "new_window": false
+      },
+      {
+        "text": "About",
+        "url": "/about/",
+        "new_window": false
+      },
+      {
+        "text": "Contact",
+        "url": "/contact/",
         "new_window": false
       }
     ],
