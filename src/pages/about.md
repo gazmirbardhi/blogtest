@@ -5,7 +5,7 @@ img_path: https://res.cloudinary.com/arpit-goyal/image/upload/v1558072070/images
 template: page
 menus:
   main:
-    weight: 6
+    weight: -1
     title: About
     include: false
 description: Hi, I'm Arpit Goyal. UX consultant at Maverick.io, Jaipur. I prefer to
