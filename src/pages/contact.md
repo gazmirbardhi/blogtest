@@ -5,6 +5,7 @@ menus:
   main:
     title: Contact
     weight: 5
+    include: false
 template: contact
 ---
 

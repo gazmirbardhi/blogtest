@@ -7,6 +7,7 @@ menus:
   main:
     weight: 6
     title: About
+    include: false
 description: Hi, I'm Arpit Goyal. UX consultant at Maverick.io, Jaipur. I prefer to
   introduce myself as "Engineer with an eye for design"
 
