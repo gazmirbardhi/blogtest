@@ -7,11 +7,11 @@ menus:
   main:
     weight: 2
     title: About
-description: Hi, I'm Arpit Goyal. I'm UX consultant at Maverick.io, Jaipur. I prefer
-  to introduce myself as "Engineer with an eye for design"
+description: Hi, I'm Arpit Goyal. UX consultant at Maverick.io, Jaipur. I prefer to
+  introduce myself as "Engineer with an eye for design"
 
 ---
-**Hi, I'm Arpit Goyal.** I'm UX consultant at [Maverick.io](https://www.maverick.io), Jaipur. After graduating with Information technology as major, I worked for startups where I honed my design style and product sensibility.
+**Hi, I'm Arpit Goyal.** UX consultant at [Maverick.io](https://www.maverick.io), Jaipur. After graduating with Information technology as major, I worked for startups where I honed my design style and product sensibility.
 
 After my internship with Digital agency [Parallel Labs](https://parallellabs.io/), I developed a great interest in Design and it continued and increased with my work at [Townscript](https://www.townscript.com) and [WebEngage](https://webengage.com) as part of core product team.
 
