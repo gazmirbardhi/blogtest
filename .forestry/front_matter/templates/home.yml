@@ -8,6 +8,19 @@ fields:
   description: The title of the page.
   config:
     required: true
+- type: blocks
+  name: sections
+  label: Sections
+  description: Home page sections
+  template_types:
+  - intro
+- type: text
+  name: template
+  label: Template
+  hidden: true
+  default: home
+  config:
+    required: true
 - name: illustration_image
   type: file
   config:
@@ -28,19 +41,6 @@ fields:
   config:
     maxSize: 250
   label: Everything else Image
-- type: blocks
-  name: sections
-  label: Sections
-  description: Home page sections
-  template_types:
-  - intro
-- type: text
-  name: template
-  label: Template
-  hidden: true
-  default: home
-  config:
-    required: true
 - name: quora_icon
   type: file
   config:
@@ -56,6 +56,15 @@ fields:
   config:
     maxSize: 250
   label: twitter icon
+- name: keywords
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Keywords
+  description: meta keywords
 pages:
-- src/pages/index.md
 - src/pages/index.md
