@@ -19,10 +19,10 @@ export default class Notfound extends React.Component {
                                         <div className="column is-one-quarters no-padding" />
                                         <div className="column is-three-quarters">
                                             <section className="section">
-                                                <h1 className="title has-text-white">Arpit Goyal</h1>
+                                                <h1 className="title has-text-white">{_.get(this.props, 'pageContext.frontmatter.header' )}</h1>
                                                 <span></span>
                                                 <h2 className="subtitle is-size-4 has-text-white is-marginless">
-                                                    Product Manager | Engineer with an eye for design
+                                                    {_.get(this.props, 'pageContext.frontmatter.secondary_header' )}
                                                 </h2>
                                             </section>
                                             <section className="section is-paddingless-vertical">
