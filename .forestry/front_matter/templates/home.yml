@@ -56,39 +56,13 @@ fields:
   config:
     maxSize: 250
   label: illustration image
-- name: build_image
-  type: file
-  config:
-    maxSize: 250
-  label: Build Image
-- name: blog_image
-  type: file
-  config:
-    maxSize: 250
-  label: Blog Image
-- name: everything_else_image
-  type: file
-  config:
-    maxSize: 250
-  label: Everything else Image
+- name: things_i_do_illustrations
+  type: image_gallery
+  config: {}
+  label: things I do illustrations
 - name: social_icons
   type: image_gallery
   config: {}
   label: social icons
-- name: quora_icon
-  type: file
-  config:
-    maxSize: 250
-  label: quora icon
-- name: medium_icon
-  type: file
-  config:
-    maxSize: 250
-  label: medium icon
-- name: twitter_icon
-  type: file
-  config:
-    maxSize: 250
-  label: twitter icon
 pages:
 - src/pages/index.md
