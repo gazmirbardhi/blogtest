@@ -14,6 +14,16 @@ fields:
   description: Home page sections
   template_types:
   - intro
+- name: keywords
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Keywords
+  description: meta keywords
 - type: text
   name: template
   label: Template
@@ -56,15 +66,5 @@ fields:
   config:
     maxSize: 250
   label: twitter icon
-- name: keywords
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Keywords
-  description: meta keywords
 pages:
 - src/pages/index.md
