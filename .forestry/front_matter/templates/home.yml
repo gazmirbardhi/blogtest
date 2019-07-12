@@ -8,12 +8,16 @@ fields:
   description: The title of the page.
   config:
     required: true
-- type: blocks
-  name: sections
-  label: Sections
-  description: Home page sections
-  template_types:
-  - intro
+- name: excerpt
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Excerpt
+  description: Meta Description
 - name: keywords
   type: textarea
   default: ''
@@ -24,6 +28,12 @@ fields:
       format: markdown
   label: Keywords
   description: meta keywords
+- type: blocks
+  name: sections
+  label: Sections
+  description: Home page sections
+  template_types:
+  - intro
 - type: text
   name: template
   label: Template
@@ -31,6 +41,16 @@ fields:
   default: home
   config:
     required: true
+- name: header
+  type: text
+  config:
+    required: false
+  label: header
+- name: secondary_header
+  type: text
+  config:
+    required: false
+  label: secondary header
 - name: illustration_image
   type: file
   config:
