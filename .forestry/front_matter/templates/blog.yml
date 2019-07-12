@@ -16,7 +16,7 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  label: excerpt
+  label: Excerpt
   description: Meta Description
 - type: blocks
   name: sections
