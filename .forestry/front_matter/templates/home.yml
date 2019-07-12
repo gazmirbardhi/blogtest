@@ -71,6 +71,10 @@ fields:
   config:
     maxSize: 250
   label: Everything else Image
+- name: social_icons
+  type: image_gallery
+  config: {}
+  label: social icons
 - name: quora_icon
   type: file
   config:
