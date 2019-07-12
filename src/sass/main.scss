@@ -1,4 +1,4 @@
-
+$color-primary: #293dd2;
 // Font.
 $font: (
   primary: (BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif),
@@ -13,7 +13,7 @@ $palette: (
   border:        lighten(#5e5e5e, 50%),
   bg:            lighten(#5e5e5e, 60%),
   accent:        #3cb464,
-  accent-blue:   #108afb,
+  accent-blue:   $color-primary,
   accent-black:  #323232,
   accent-red:    #a51c30
 );

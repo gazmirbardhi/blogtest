@@ -96,8 +96,8 @@ a.has-text-white:hover, a.has-text-white:focus {
   padding: 0;
   width: 8px;
   height: 8px;
-  border-top: 2px solid #108afb;
-  border-right: 2px solid #108afb;
+  border-top: 2px solid $color-primary;
+  border-right: 2px solid $color-primary;
   transform: rotate(225deg);
   position: absolute;
   top: 50%;
@@ -123,7 +123,7 @@ a.has-text-white:hover, a.has-text-white:focus {
   margin-top: -1px;
   width: 40px;
   height: 2px;
-  background: #108afb;
+  background: $color-primary;
   content: ' ';
   .has-bg & {
     background: $white;
