@@ -1,5 +1,5 @@
 ---
-label: Product Portfolio
+label: Work Portfolio
 hide_body: true
 fields:
 - type: text
@@ -18,8 +18,8 @@ fields:
   name: template
   label: Template
   hidden: true
-  default: product-portfolio
+  default: works
   config:
     required: true
 pages:
-- src/pages/product-portfolio.md
+- src/pages/work-portfolio.md
