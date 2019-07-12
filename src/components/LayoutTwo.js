@@ -11,11 +11,15 @@ export default class Body extends React.Component {
     render() {
         const title = `${_.get(this.props, 'pageContext.frontmatter.title') && _.get(this.props, 'pageContext.frontmatter.title') + ' - '}${_.get(this.props, 'pageContext.site.siteMetadata.title')}`;
         const description = _.get(this.props, 'pageContext.frontmatter.excerpt') || _.get(this.props, 'pageContext.site.siteMetadata.description');
+        const keywords = _.get(this.props, 'pageContext.frontmatter.keywords');
         return (
             <React.Fragment>
                 <Helmet>
                     <title>{title}</title>
+                    <meta name="title" content={title} />
                     <meta name="description" content={description} />
+                    <meta name="Keywords" content={keywords} />
+                    <meta name="author" content="Arpit Goyal" />
                     <meta charSet="utf-8"/>
                     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                     <meta name="google" content="notranslate" />

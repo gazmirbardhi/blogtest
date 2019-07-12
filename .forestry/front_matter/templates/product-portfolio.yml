@@ -18,6 +18,16 @@ fields:
       format: markdown
   label: Excerpt
   description: Meta Description
+- name: keywords
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Keywords
+  description: meta keywords
 - type: blocks
   name: sections
   label: Sections
