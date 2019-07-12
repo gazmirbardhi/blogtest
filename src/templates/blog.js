@@ -4,6 +4,7 @@ import moment from 'moment-strftime';
 
 import components, {Layout} from '../components/index';
 import safePrefix from '../utils/safePrefix';
+import htmlToReact from '../utils/htmlToReact';
 
 export default class Blog extends React.Component {
     getList(post, post_idx) {
@@ -52,6 +53,11 @@ export default class Blog extends React.Component {
             <Layout {...this.props}>
               <header className="post-header">
                 <h1 className="post-title">Latest blog posts</h1>
+                {_.get(this.props, 'pageContext.frontmatter.subtitle') && 
+                <div className="post-subtitle">
+                  {htmlToReact(_.get(this.props, 'pageContext.frontmatter.subtitle'))}
+                </div>
+                }
               </header>
               {_.map(_.get(this.props, 'pageContext.frontmatter.sections'), (section, section_idx) => {
                   let GetSectionComponent = components[_.get(section, 'component')];
