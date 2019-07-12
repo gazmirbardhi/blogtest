@@ -2,6 +2,11 @@
 publish = "public"
 command = "./ssg-build.sh"
 [[redirects]]
+  from = "://blog.arpitgoyal.com"
+  to = "/blog"
+  status = 301
+  force = true
+[[redirects]]
   from = "/resume"
   to = "https://goo.gl/a4cyCw"
   status = 200
