@@ -7,6 +7,16 @@ command = "./ssg-build.sh"
   status = 301
   force = true
 [[redirects]]
+  from = "https://blog.arpitgoyal.com/about/"
+  to = "https://arpitgoyal.com/about/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://blog.arpitgoyal.com/contact/"
+  to = "https://arpitgoyal.com/contact/"
+  status = 301
+  force = true
+[[redirects]]
   from = "https://blog.arpitgoyal.com/*"
   to = "https://arpitgoyal.com/blog/:splat"
   status = 301
