@@ -4,14 +4,15 @@ template: post
 is_external: false
 title: Survey
 subtitle: A survey to understand user needs in furniture rental space
-date: 2019-07-02T00:00:00+05:30
+date: 2019-07-01T18:30:00.000+00:00
 thumb_img_path: https://res.cloudinary.com/arpit-goyal/image/upload/v1562772588/2.jpg
 content_img_path: ''
 excerpt: A survey to understand user needs in furniture rental space
 url: ''
 is_featured: false
+goal: ''
+work: ''
+thought_process: ''
+result: ''
 
 ---
-# Survey
-
-## A survey to understand user needs in furniture rental space
