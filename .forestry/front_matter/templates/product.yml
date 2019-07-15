@@ -60,42 +60,6 @@ fields:
   type: boolean
   label: Is Featured
   description: Is this post the featured post
-- name: goal
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: Goal
-- name: work
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: Work
-- name: thought_process
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: Thought process
-- name: result
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: Result
 pages:
 - src/pages/products/competitor-analysis.md
 - src/pages/products/survey.md
