@@ -26,6 +26,23 @@ export default class Body extends React.Component {
                     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i%7CPT+Serif:400,700&display=optional" rel="stylesheet"/>
                     <link rel="stylesheet" href={safePrefix('assets/css/main.css')}/>
 
+                    <script type="application/ld+json">
+                        {
+                            "@context": "http://schema.org/",
+                            "@type": "Person",
+                            "name": "Arpit Goyal",
+                            "jobTitle": "Fronend Developer",
+                            "url": "https://arpitgoyal.com",
+                            "sameAs" : [
+                                "https://www.quora.com/profile/Arpit-Goyal-14",
+                                "https://www.linkedin.com/in/arpit-goyal-india",
+                                "https://twitter.com/_arpitgoyal",
+                                "https://medium.com/@arpit_goyal",
+                                "https://www.instagram.com/_arpitgoyal/"
+                            ],
+                            "email": "92arpit.goyal@gmail.com"
+                        }
+                    </script>
                     <meta property="og:title" content={title} />
                     <meta property="og:description" content={description} />
                 </Helmet>

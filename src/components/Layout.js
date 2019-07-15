@@ -11,17 +11,38 @@ export default class Body extends React.Component {
     render() {
         const title = `${_.get(this.props, 'pageContext.frontmatter.title') && _.get(this.props, 'pageContext.frontmatter.title') + ' - '}${_.get(this.props, 'pageContext.site.siteMetadata.title')}`;
         const description = _.get(this.props, 'pageContext.frontmatter.excerpt') || _.get(this.props, 'pageContext.site.siteMetadata.description');
+        const keywords = _.get(this.props, 'pageContext.frontmatter.keywords');
         return (
             <React.Fragment>
                 <Helmet>
                     <title>{title}</title>
+                    <meta name="title" content={title} />
                     <meta name="description" content={description} />
+                    <meta name="Keywords" content={keywords} />
+                    <meta name="author" content="Arpit Goyal" />
                     <meta charSet="utf-8"/>
                     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                     <meta name="google" content="notranslate" />
                     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i%7CPT+Serif:400,700&display=optional" rel="stylesheet"/>
                     <link rel="stylesheet" href={safePrefix('assets/css/main.css')}/>
 
+                    <script type="application/ld+json">
+                        {
+                            "@context": "http://schema.org/",
+                            "@type": "Person",
+                            "name": "Arpit Goyal",
+                            "jobTitle": "Fronend Developer",
+                            "url": "https://arpitgoyal.com",
+                            "sameAs" : [
+                                "https://www.quora.com/profile/Arpit-Goyal-14",
+                                "https://www.linkedin.com/in/arpit-goyal-india",
+                                "https://twitter.com/_arpitgoyal",
+                                "https://medium.com/@arpit_goyal",
+                                "https://www.instagram.com/_arpitgoyal/"
+                            ],
+                            "email": "92arpit.goyal@gmail.com"
+                        }
+                    </script>
                     <meta property="og:title" content={title} />
                     <meta property="og:description" content={description} />
                 </Helmet>
