@@ -26,7 +26,7 @@ export default class Body extends React.Component {
                     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i%7CPT+Serif:400,700&display=optional" rel="stylesheet"/>
                     <link rel="stylesheet" href={safePrefix('assets/css/main.css')}/>
 
-                    {/*<script type="application/ld+json">
+                    <script type="application/ld+json">{`
                         {
                             "@context": "http://schema.org/",
                             "@type": "Person",
@@ -42,7 +42,7 @@ export default class Body extends React.Component {
                             ],
                             "email": "92arpit.goyal@gmail.com"
                         }
-                    </script>*/}
+                    `}</script>
                     <meta property="og:title" content={title} />
                     <meta property="og:description" content={description} />
                 </Helmet>
