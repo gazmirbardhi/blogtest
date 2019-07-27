@@ -16,3 +16,13 @@ thought_process: ''
 result: ''
 
 ---
+### Problem statement
+
+#### Context
+
+Suppose you want to build a money manager app similar to [Walnut](http://www.getwalnut.com/), which would track expenses of users and help them manage money.
+
+###   
+Solution:
+
+[External Link](https://drive.google.com/open?id=11y0CuzIoVNVrFyh5nHY7UyetQLP823Ol "Google drive link to Document")
