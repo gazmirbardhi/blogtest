@@ -16,3 +16,10 @@ thought_process: ''
 result: ''
 
 ---
+### Problem Statement
+
+[https://cdn.upgrad.com/UpGrad/temp/d1366c9e-32b3-4dbb-a417-3dc196baddc7/Zivame-IP.pdf](https://cdn.upgrad.com/UpGrad/temp/d1366c9e-32b3-4dbb-a417-3dc196baddc7/Zivame-IP.pdf "https://cdn.upgrad.com/UpGrad/temp/d1366c9e-32b3-4dbb-a417-3dc196baddc7/Zivame-IP.pdf")
+
+### Solution
+
+[External Link](https://drive.google.com/open?id=11wAW-vHf7WvfPaq5AfdmSsR1I9WsIUx4 "Google Drive link to Document")
