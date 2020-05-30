@@ -30,9 +30,9 @@ export default class Notfound extends React.Component {
                                                     <div className="tile is-horizontal is-parent">
                                                         <a href="/work-portfolio" className="tile is-child box things-i-do">
                                                             <img src={safePrefix(_.get(this.props, 'pageContext.frontmatter.things_i_do_illustrations[0]' ))} alt="Build Products" />
-                                                            <p className="title">Build</p>
+                                                            <p className="title">Work</p>
                                                             <p className="is-marginless">
-                                                                I build products.<br />Code &amp; design.
+                                                                Products I've built.<br />Code or design.
                                                             </p>
                                                         </a>
                                                     </div>
@@ -50,7 +50,7 @@ export default class Notfound extends React.Component {
                                                             <img src={safePrefix(_.get(this.props, 'pageContext.frontmatter.things_i_do_illustrations[2]' ))} alt="Everything else" />
                                                             <p className="title three" />
                                                             <p className="is-marginless">
-                                                                Travelling, Cycling,<br />everything else
+                                                                Cycling, Travelling,<br />everything else
                                                             </p>
                                                         </div>
                                                     </div>

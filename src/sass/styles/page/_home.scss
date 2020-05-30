@@ -62,19 +62,13 @@
 }
 
 .title.three:after {
-  content:"Bakar";
-  animation: spin 4s linear infinite;
+  content: "Cycling";
+  animation: spin 8s linear infinite;
 }
 
 @keyframes spin {
-  00% { content: "Bakar" }
-  10% { content: "Beer" }
-  20% { content: "Bakwaas" }
-  30% { content: "Bhand" }
-  40% { content: "Blogging" }
-  50% { content: "Bicycle" }
-  60% { content: "Beaches" }
-  70% { content: "Bowling" }
-  80% { content: "atque" }
-  90% { content: "fuga" }
+  00% { content: "Cycling" }
+  25% { content: "Planting" }
+  50% { content: "Travelling" }
+  75% { content: "Events" }
 }
