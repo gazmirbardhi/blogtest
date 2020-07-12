@@ -1,4 +1,22 @@
 ---
 label: Photography
 hide_body: true
-fields: []
+fields:
+- name: template
+  type: text
+  config:
+    required: false
+  label: Template
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: bandw_gallery
+  type: image_gallery
+  config: {}
+  label: B&W Gallery
+- name: coloured_gallery
+  type: image_gallery
+  config: {}
+  label: Coloured Gallery
