@@ -35,9 +35,8 @@
      grid-column: span 2;
   }
 
-  .grid-container .grid-card:nth-child(5),
   .grid-container .grid-card:nth-child(6) {
-     grid-column: span 1.5;
+     grid-column: span 2;
      align-self: end;
   }
 }
