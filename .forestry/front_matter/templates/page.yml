@@ -34,4 +34,5 @@ fields:
   config:
     required: true
 pages:
-- src/pages/photography.md
+- src/pages/404.md
+- src/pages/about.md
