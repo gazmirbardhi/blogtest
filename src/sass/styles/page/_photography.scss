@@ -1,6 +1,6 @@
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 20px;
 }
 
@@ -15,4 +15,8 @@
 
 .grid-container .grid-card:nth-child(4) {
    grid-column: span 2;
+}
+
+.grid-container + .grid-container{
+	margin-top: 5rem;
 }
