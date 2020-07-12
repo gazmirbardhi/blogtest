@@ -6,6 +6,7 @@ import Subscribe from './Subscribe';
 import SubscribeForm from './SubscribeForm';
 import Layout from './Layout';
 import LayoutTwo from './LayoutTwo';
+import LayoutThree from './LayoutThree';
 
 export {
     Footer,
@@ -15,7 +16,8 @@ export {
     Subscribe,
     SubscribeForm,
     Layout,
-    LayoutTwo
+    LayoutTwo,
+    LayoutThree
 };
 
 export default {
@@ -26,5 +28,6 @@ export default {
     Subscribe,
     SubscribeForm,
     Layout,
-    LayoutTwo
+    LayoutTwo,
+    LayoutThree
 };
