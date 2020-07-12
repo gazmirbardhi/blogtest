@@ -26,7 +26,7 @@ export default class Page extends React.Component {
                 <div className="post-content">
                   {htmlToReact(_.get(this.props, 'pageContext.html'))}
                 </div>
-                <div className="columns">
+                <div className="grid-container">
                   {
                     _.map( _.get(this.props, 'pageContext.frontmatter.bandw_gallery'), (src) => {
                       return (
@@ -37,7 +37,7 @@ export default class Page extends React.Component {
                     })
                   }
                 </div>
-                <div className="columns">
+                <div className="grid-container">
                   {
                     _.map( _.get(this.props, 'pageContext.frontmatter.coloured_gallery'), (src) => {
                       return (
