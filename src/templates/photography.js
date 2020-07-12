@@ -30,7 +30,7 @@ export default class Page extends React.Component {
                   {
                     _.map( _.get(this.props, 'pageContext.frontmatter.bandw_gallery'), (src) => {
                       return (
-                        <figure className="card">
+                        <figure className="grid-card">
                           <img src={safePrefix(src)} alt={safePrefix(src)} />
                         </figure>
                       )
@@ -41,7 +41,7 @@ export default class Page extends React.Component {
                   {
                     _.map( _.get(this.props, 'pageContext.frontmatter.coloured_gallery'), (src) => {
                       return (
-                        <figure className="card">
+                        <figure className="grid-card">
                           <img src={safePrefix(src)} alt={safePrefix(src)} />
                         </figure>
                       )
