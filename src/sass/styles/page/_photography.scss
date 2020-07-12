@@ -1,0 +1,18 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-gap: 20px;
+}
+
+.grid-container .card{
+  border: 1px solid #ececec;
+  padding: 1rem;
+}
+
+.grid-container .card:first-child {
+   grid-row: span 2;
+}
+
+.grid-container .card:nth-child(4) {
+   grid-column: span 2;
+}
