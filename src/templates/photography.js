@@ -44,23 +44,21 @@ export default class Page extends React.Component {
                     </div>
                   </div>
                 </div>
-                <div className="container is-fluid">
-                  <div className="columns">
-                    <div className="column">
-                      <h2 className="pt-6">Colored Photography:</h2>
-                    </div>
-                    <div className="column">
-                      <div className="grid-container">
-                        {
-                          _.map( _.get(this.props, 'pageContext.frontmatter.coloured_gallery'), (src) => {
-                            return (
-                              <figure className="grid-card">
-                                <img src={safePrefix(src)} alt={safePrefix(src)} />
-                              </figure>
-                            )
-                          })
-                        }
-                      </div>
+                <div className="columns coloured_gallery">
+                  <div className="column">
+                    <h2 className="pt-6">Colored Photography:</h2>
+                  </div>
+                  <div className="column">
+                    <div className="grid-container">
+                      {
+                        _.map( _.get(this.props, 'pageContext.frontmatter.coloured_gallery'), (src) => {
+                          return (
+                            <figure className="grid-card">
+                              <img src={safePrefix(src)} alt={safePrefix(src)} />
+                            </figure>
+                          )
+                        })
+                      }
                     </div>
                   </div>
                 </div>
