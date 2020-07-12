@@ -57,18 +57,18 @@ fields:
   label: Is Featured
   description: Is this post the featured post
 pages:
-- src/pages/posts/what-are-the-examples-of-people-switching-from-corporate-job-to-teaching.md
-- src/pages/posts/i-know-html-css-and-a-bit-of-javascript-what-should-i-learn-next.md
-- src/pages/posts/how-to-get-a-job-in-a-company-which-does-awesome-work.md
-- src/pages/posts/is-it-advisable-to-write-a-really-short-and-direct-resume-or-cv-without-all-the-fuss-about-objectives-and-hobbies.md
-- src/pages/posts/how-to-get-interesting-work-in-computer-science-field.md
-- src/pages/posts/what-is-the-easiest-way-to-make-a-little-money-online-if-i-am-a-programmer.md
 - src/pages/posts/10-tips-to-getting-started-in-a-professional-life.md
-- src/pages/posts/how-does-one-write-a-high-quality-résumé-or-cv.md
-- src/pages/posts/List-of-the-Essential-Extensions.md
-- src/pages/posts/Extensions-for-Front-end---UI-Developers.md
-- src/pages/posts/Dark-side-of-working-at-Mass-Recruiting-Companies.md
-- src/pages/posts/Customizing-Angular-UI-Bootstrap--Directives.md
 - src/pages/posts/2018--of-taking-actions.md
-- src/pages/posts/Wireframe--Mockup--Prototype-and-other-stages-of-designing-process.md
+- src/pages/posts/Customizing-Angular-UI-Bootstrap--Directives.md
+- src/pages/posts/Dark-side-of-working-at-Mass-Recruiting-Companies.md
+- src/pages/posts/Extensions-for-Front-end---UI-Developers.md
 - src/pages/posts/Indian--social--media--Rumour--Hoax-and-how-we-react.md
+- src/pages/posts/List-of-the-Essential-Extensions.md
+- src/pages/posts/Wireframe--Mockup--Prototype-and-other-stages-of-designing-process.md
+- src/pages/posts/how-does-one-write-a-high-quality-résumé-or-cv.md
+- src/pages/posts/how-to-get-a-job-in-a-company-which-does-awesome-work.md
+- src/pages/posts/how-to-get-interesting-work-in-computer-science-field.md
+- src/pages/posts/i-know-html-css-and-a-bit-of-javascript-what-should-i-learn-next.md
+- src/pages/posts/is-it-advisable-to-write-a-really-short-and-direct-resume-or-cv-without-all-the-fuss-about-objectives-and-hobbies.md
+- src/pages/posts/what-are-the-examples-of-people-switching-from-corporate-job-to-teaching.md
+- src/pages/posts/what-is-the-easiest-way-to-make-a-little-money-online-if-i-am-a-programmer.md
