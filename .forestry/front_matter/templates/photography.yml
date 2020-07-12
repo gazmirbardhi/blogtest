@@ -31,3 +31,5 @@ fields:
   type: image_gallery
   config: {}
   label: Coloured Gallery
+pages:
+- src/pages/photography.md

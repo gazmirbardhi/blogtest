@@ -1,5 +1,5 @@
 ---
-template: page
+template: photography
 title: Photography
 description: ''
 subtitle: ''
