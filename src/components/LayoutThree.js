@@ -3,9 +3,9 @@ import {Helmet} from 'react-helmet';
 import _ from 'lodash';
 
 import safePrefix from '../utils/safePrefix';
-// import Header from './Header';
-// import Subscribe from './Subscribe';
-// import Footer from './Footer';
+import Header from './Header';
+import Subscribe from './Subscribe';
+import Footer from './Footer';
 
 export default class Body extends React.Component {
     render() {
@@ -47,7 +47,7 @@ export default class Body extends React.Component {
                     <meta property="og:description" content={description} />
                 </Helmet>
                   <div id="page" className={'site layout-' + _.get(this.props, 'pageContext.site.siteMetadata.layout_style') + ' palette-' + _.get(this.props, 'pageContext.site.siteMetadata.palette')}>
-                    {/*<Header {...this.props} />*/}
+                    <Header {...this.props} />
                     {/*<div id="content" className="site-content">
                       <main id="main" className="site-main inner">*/}
                         {this.props.children}
