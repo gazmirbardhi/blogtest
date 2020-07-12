@@ -26,17 +26,27 @@ export default class Page extends React.Component {
                 <div className="post-content">
                   {htmlToReact(_.get(this.props, 'pageContext.html'))}
                 </div>
-                <div className="grid-container">
-                  {
-                    _.map( _.get(this.props, 'pageContext.frontmatter.bandw_gallery'), (src) => {
-                      return (
-                        <figure className="grid-card">
-                          <img src={safePrefix(src)} alt={safePrefix(src)} />
-                        </figure>
-                      )
-                    })
-                  }
+                <div className="container is-fluid">
+                  <div className="columns is-vcentered">
+                    <div className="column">
+                      <h2>My trial on B&W Photography:</h2>
+                    </div>
+                    <div className="column">
+                      <div className="grid-container">
+                        {
+                          _.map( _.get(this.props, 'pageContext.frontmatter.bandw_gallery'), (src) => {
+                            return (
+                              <figure className="grid-card">
+                                <img src={safePrefix(src)} alt={safePrefix(src)} />
+                              </figure>
+                            )
+                          })
+                        }
+                      </div>
+                    </div>
+                  </div>
                 </div>
+
                 <div className="grid-container">
                   {
                     _.map( _.get(this.props, 'pageContext.frontmatter.coloured_gallery'), (src) => {
