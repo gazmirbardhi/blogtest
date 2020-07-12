@@ -2,7 +2,8 @@
 template: photography
 title: Photography
 description: ''
-subtitle: ''
+subtitle: "“Taking pictures is like tiptoeing into the kitchen late at night and stealing
+  Oreo cookies.” — Diane Arbus"
 img_path: ''
 bandw_gallery:
 - https://res.cloudinary.com/arpit-goyal/image/upload/v1594555794/IMG_20200301_120545_903_sqktc8.jpg
