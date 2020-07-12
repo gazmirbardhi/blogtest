@@ -2,16 +2,27 @@
 label: Photography
 hide_body: true
 fields:
-- name: template
-  type: text
-  config:
-    required: false
+- type: text
+  name: template
   label: Template
+  hidden: true
+  default: photography
+  config:
+    required: true
 - name: title
   type: text
   config:
-    required: false
+    required: true
   label: Title
+  description: The title of the page.
+- type: text
+  name: subtitle
+  label: Subtitle
+  description: The text shown just below the page title.
+- type: file
+  name: img_path
+  label: Image
+  description: The image shown below the page title and subtitle.
 - name: bandw_gallery
   type: image_gallery
   config: {}
