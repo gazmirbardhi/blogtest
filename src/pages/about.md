@@ -1,7 +1,7 @@
 ---
 title: About Me
 subtitle: Engineer with an eye for design
-img_path: https://res.cloudinary.com/arpit-goyal/image/upload/v1594570809/DSC06477_ent4jj.jpg
+img_path: https://res.cloudinary.com/arpit-goyal/image/upload/v1594571019/DSC06477_1_bcp0lr.jpg
 template: page
 menus:
   main:
