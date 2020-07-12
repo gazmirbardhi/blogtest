@@ -11,6 +11,7 @@
 
 .grid-container .grid-card:first-child {
    grid-row: span 2;
+   grid-column: span 2;
 }
 
 .grid-container .grid-card:nth-child(4) {
