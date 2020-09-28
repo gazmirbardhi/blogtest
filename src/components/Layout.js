@@ -45,6 +45,7 @@ export default class Body extends React.Component {
                     `}</script>
                     <meta property="og:title" content={title} />
                     <meta property="og:description" content={description} />
+                    <meta property="og:image" content="https://res.cloudinary.com/arpit-goyal/image/upload/v1601309934/ag-profile-photo_dkragb.jpg" />
                 </Helmet>
                   <div id="page" className={'site layout-' + _.get(this.props, 'pageContext.site.siteMetadata.layout_style') + ' palette-' + _.get(this.props, 'pageContext.site.siteMetadata.palette')}>
                     <Header {...this.props} />
